@@ -1,295 +1,419 @@
 {
   "repository": "maximinio/zhang_segmentation_benchmark",
   "release_tag": "data-v1",
-  "status": "UPLOAD_PENDING",
+  "status": "ALL_ASSETS_UPLOADED_AND_CHECKSUM_VERIFIED",
   "assets": [
     {
       "asset_name": "RCTD__Cellpose3__CD1.rds",
       "logical_path": "results/rctd/Cellpose3__CD1/native_full_major.rds",
       "bytes": 21857286,
       "sha256": "24438acaa329ed9545d3cc27cf339045cfdba6224dbfc549e561ae8399d74e85",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__Cellpose3__CD1.rds",
+      "github_asset_id": 678993625,
+      "verified_server_digest": "sha256:24438acaa329ed9545d3cc27cf339045cfdba6224dbfc549e561ae8399d74e85"
     },
     {
       "asset_name": "RCTD__Cellpose3__CD2.rds",
       "logical_path": "results/rctd/Cellpose3__CD2/native_full_major.rds",
       "bytes": 21646099,
       "sha256": "e295cf781b6302b2e4fd6b5495aef754a85e5b178daafa8ec14c1c66de44be41",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__Cellpose3__CD2.rds",
+      "github_asset_id": 678993753,
+      "verified_server_digest": "sha256:e295cf781b6302b2e4fd6b5495aef754a85e5b178daafa8ec14c1c66de44be41"
     },
     {
       "asset_name": "RCTD__CellposeDINO__CD1.rds",
       "logical_path": "results/rctd/CellposeDINO__CD1/native_full_major.rds",
       "bytes": 86411079,
       "sha256": "f93f3258d76b973f9ab15b5b39db4b5b32059b141499e6c43d160bee5f377f6d",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__CellposeDINO__CD1.rds",
+      "github_asset_id": 678993875,
+      "verified_server_digest": "sha256:f93f3258d76b973f9ab15b5b39db4b5b32059b141499e6c43d160bee5f377f6d"
     },
     {
       "asset_name": "RCTD__CellposeDINO__CD2.rds",
       "logical_path": "results/rctd/CellposeDINO__CD2/native_full_major.rds",
       "bytes": 37893359,
       "sha256": "c6c8ade88b57ed7a3f0070086b4b7c366821a466f6f5bed93b02f30d1de029fe",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__CellposeDINO__CD2.rds",
+      "github_asset_id": 678994084,
+      "verified_server_digest": "sha256:c6c8ade88b57ed7a3f0070086b4b7c366821a466f6f5bed93b02f30d1de029fe"
     },
     {
       "asset_name": "RCTD__CellposeDINOsmall__CD1.rds",
       "logical_path": "results/rctd/CellposeDINOsmall__CD1/native_full_major.rds",
       "bytes": 128051726,
       "sha256": "6e635ce5ad1210d5bcc7f36587b12f5e2e806002da57b88cf840636b92e54ebf",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__CellposeDINOsmall__CD1.rds",
+      "github_asset_id": 678994190,
+      "verified_server_digest": "sha256:6e635ce5ad1210d5bcc7f36587b12f5e2e806002da57b88cf840636b92e54ebf"
     },
     {
       "asset_name": "RCTD__CellposeDINOsmall__CD2.rds",
       "logical_path": "results/rctd/CellposeDINOsmall__CD2/native_full_major.rds",
       "bytes": 51788920,
       "sha256": "16f73b85632ee5b77832343c7325d6a38d6c911874f7d1cb693a225bff4de30e",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__CellposeDINOsmall__CD2.rds",
+      "github_asset_id": 678994579,
+      "verified_server_digest": "sha256:16f73b85632ee5b77832343c7325d6a38d6c911874f7d1cb693a225bff4de30e"
     },
     {
       "asset_name": "RCTD__CellposeSAM__CD1.rds",
       "logical_path": "results/rctd/CellposeSAM__CD1/native_full_major.rds",
       "bytes": 76940133,
       "sha256": "e9346262447fa74a4132a4736bfaea7b28be56b8b19508d3287cd4e4356c9bce",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__CellposeSAM__CD1.rds",
+      "github_asset_id": 678994797,
+      "verified_server_digest": "sha256:e9346262447fa74a4132a4736bfaea7b28be56b8b19508d3287cd4e4356c9bce"
     },
     {
       "asset_name": "RCTD__CellposeSAM__CD2.rds",
       "logical_path": "results/rctd/CellposeSAM__CD2/native_full_major.rds",
       "bytes": 63781220,
       "sha256": "c3961afa385ea2efb3d4fc658b885c4966a0254aa014c59c985781939fcf80a1",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__CellposeSAM__CD2.rds",
+      "github_asset_id": 678994975,
+      "verified_server_digest": "sha256:c3961afa385ea2efb3d4fc658b885c4966a0254aa014c59c985781939fcf80a1"
     },
     {
       "asset_name": "RCTD__CellposeSAMv2__CD1.rds",
       "logical_path": "results/rctd/CellposeSAMv2__CD1/native_full_major.rds",
       "bytes": 62854752,
       "sha256": "0bec4d364cc8e576667f5316f4b08f5e1a9a3f9a7fcd26c7b8b9df84b1bcf547",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__CellposeSAMv2__CD1.rds",
+      "github_asset_id": 678995188,
+      "verified_server_digest": "sha256:0bec4d364cc8e576667f5316f4b08f5e1a9a3f9a7fcd26c7b8b9df84b1bcf547"
     },
     {
       "asset_name": "RCTD__CellposeSAMv2__CD2.rds",
       "logical_path": "results/rctd/CellposeSAMv2__CD2/native_full_major.rds",
       "bytes": 56147199,
       "sha256": "9036c93f34b84bbb70d72d88a1b455f8b6f49a84ad099695bf69e9135a3c62d7",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__CellposeSAMv2__CD2.rds",
+      "github_asset_id": 678995387,
+      "verified_server_digest": "sha256:9036c93f34b84bbb70d72d88a1b455f8b6f49a84ad099695bf69e9135a3c62d7"
     },
     {
       "asset_name": "RCTD__InstanSeg_HE__CD1.rds",
       "logical_path": "results/rctd/InstanSeg_HE__CD1/native_full_major.rds",
       "bytes": 262633383,
       "sha256": "d7c6670a2e6c0ede0e641f0a600e23d5952960a519b19d7635748cc759db1ef0",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__InstanSeg_HE__CD1.rds",
+      "github_asset_id": 678995548,
+      "verified_server_digest": "sha256:d7c6670a2e6c0ede0e641f0a600e23d5952960a519b19d7635748cc759db1ef0"
     },
     {
       "asset_name": "RCTD__InstanSeg_HE__CD2.rds",
       "logical_path": "results/rctd/InstanSeg_HE__CD2/native_full_major.rds",
       "bytes": 163974635,
       "sha256": "233f1f09c4d5eca5f76efecb41ad0d68cbea094fe7198f393e59a3f2d769bd8b",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__InstanSeg_HE__CD2.rds",
+      "github_asset_id": 678996137,
+      "verified_server_digest": "sha256:233f1f09c4d5eca5f76efecb41ad0d68cbea094fe7198f393e59a3f2d769bd8b"
     },
     {
       "asset_name": "RCTD__InstanSeg_prior_fluor__CD1.rds",
       "logical_path": "results/rctd/InstanSeg_prior_fluor__CD1/native_full_major.rds",
       "bytes": 712528932,
       "sha256": "f41f9401a5e37182440c477e60c2c3d4149d033c6a5c5f03ee3247a8bb6a24be",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__InstanSeg_prior_fluor__CD1.rds",
+      "github_asset_id": 678996429,
+      "verified_server_digest": "sha256:f41f9401a5e37182440c477e60c2c3d4149d033c6a5c5f03ee3247a8bb6a24be"
     },
     {
       "asset_name": "RCTD__InstanSeg_prior_fluor__CD2.rds",
       "logical_path": "results/rctd/InstanSeg_prior_fluor__CD2/native_full_major.rds",
       "bytes": 420598249,
       "sha256": "f31c2299e9fe2aaa5fad2a46af25470338fe5e444760a3e05a3614f440471da4",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__InstanSeg_prior_fluor__CD2.rds",
+      "github_asset_id": 678997959,
+      "verified_server_digest": "sha256:f31c2299e9fe2aaa5fad2a46af25470338fe5e444760a3e05a3614f440471da4"
     },
     {
       "asset_name": "RCTD__OpenCV_HE__CD1.rds",
       "logical_path": "results/rctd/OpenCV_HE__CD1/native_full_major.rds",
       "bytes": 67369699,
       "sha256": "fcba06943abfcd4e59cf241cbc8edbbb38acc74e6a3aeedf86f66d4d55ab4e6b",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__OpenCV_HE__CD1.rds",
+      "github_asset_id": 678998838,
+      "verified_server_digest": "sha256:fcba06943abfcd4e59cf241cbc8edbbb38acc74e6a3aeedf86f66d4d55ab4e6b"
     },
     {
       "asset_name": "RCTD__OpenCV_HE__CD2.rds",
       "logical_path": "results/rctd/OpenCV_HE__CD2/native_full_major.rds",
       "bytes": 68295261,
       "sha256": "640087fd98011130276bab70e63bb670ce9719a30eade5fb833fa54c4d74adb5",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__OpenCV_HE__CD2.rds",
+      "github_asset_id": 678999029,
+      "verified_server_digest": "sha256:640087fd98011130276bab70e63bb670ce9719a30eade5fb833fa54c4d74adb5"
     },
     {
       "asset_name": "RCTD__PathoSAM_HE_AIS__CD1.rds",
       "logical_path": "results/rctd/PathoSAM_HE_AIS__CD1/native_full_major.rds",
       "bytes": 31687923,
       "sha256": "e8515f5062910eaf46a542236ce098f5abb79e0cff1848b8fc2c5c277cacf3b9",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__PathoSAM_HE_AIS__CD1.rds",
+      "github_asset_id": 678999201,
+      "verified_server_digest": "sha256:e8515f5062910eaf46a542236ce098f5abb79e0cff1848b8fc2c5c277cacf3b9"
     },
     {
       "asset_name": "RCTD__PathoSAM_HE_AIS__CD2.rds",
       "logical_path": "results/rctd/PathoSAM_HE_AIS__CD2/native_full_major.rds",
       "bytes": 58681340,
       "sha256": "892ea21e8d55548f263706f18b0448ddcd116aa44319fceeedbc16277a8f09d5",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__PathoSAM_HE_AIS__CD2.rds",
+      "github_asset_id": 678999332,
+      "verified_server_digest": "sha256:892ea21e8d55548f263706f18b0448ddcd116aa44319fceeedbc16277a8f09d5"
     },
     {
       "asset_name": "RCTD__Zhang_initial_s2p5_expand5__CD1.rds",
       "logical_path": "results/rctd/Zhang_initial_s2p5_expand5__CD1/native_full_major.rds",
       "bytes": 915890710,
       "sha256": "a8da7101afdf92a61e248461a5662c96d63b1c843bcc49c14ec91bb88665a4c7",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__Zhang_initial_s2p5_expand5__CD1.rds",
+      "github_asset_id": 678999470,
+      "verified_server_digest": "sha256:a8da7101afdf92a61e248461a5662c96d63b1c843bcc49c14ec91bb88665a4c7"
     },
     {
       "asset_name": "RCTD__Zhang_initial_s2p5_expand5__CD2.rds",
       "logical_path": "results/rctd/Zhang_initial_s2p5_expand5__CD2/native_full_major.rds",
       "bytes": 614117035,
       "sha256": "8d2e4036acd6ae4225c67f332d5e3803977cc5e36f953696573f1a2719afbee9",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__Zhang_initial_s2p5_expand5__CD2.rds",
+      "github_asset_id": 679001174,
+      "verified_server_digest": "sha256:8d2e4036acd6ae4225c67f332d5e3803977cc5e36f953696573f1a2719afbee9"
     },
     {
       "asset_name": "RCTD__Zhang_initial_s2p5_nuclei__CD1.rds",
       "logical_path": "results/rctd/Zhang_initial_s2p5_nuclei__CD1/native_full_major.rds",
       "bytes": 430585928,
       "sha256": "0a2e49df92edee5f16080c65d535387291c435263fa1aea6e8d017e479903c56",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__Zhang_initial_s2p5_nuclei__CD1.rds",
+      "github_asset_id": 679002633,
+      "verified_server_digest": "sha256:0a2e49df92edee5f16080c65d535387291c435263fa1aea6e8d017e479903c56"
     },
     {
       "asset_name": "RCTD__Zhang_initial_s2p5_nuclei__CD2.rds",
       "logical_path": "results/rctd/Zhang_initial_s2p5_nuclei__CD2/native_full_major.rds",
       "bytes": 293246811,
       "sha256": "50ad90d0002db822704fcf1defe1867e5767c8581fadaf40e38c55e11d34ae70",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__Zhang_initial_s2p5_nuclei__CD2.rds",
+      "github_asset_id": 679003697,
+      "verified_server_digest": "sha256:50ad90d0002db822704fcf1defe1867e5767c8581fadaf40e38c55e11d34ae70"
     },
     {
       "asset_name": "RCTD__Zhang_initial_s3p5_expand5__CD1.rds",
       "logical_path": "results/rctd/Zhang_initial_s3p5_expand5__CD1/native_full_major.rds",
       "bytes": 857821775,
       "sha256": "7006b7cc130e3983066127119f6ee70c7f9142aad0b7205c994b57b1496cb8f8",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__Zhang_initial_s3p5_expand5__CD1.rds",
+      "github_asset_id": 679004134,
+      "verified_server_digest": "sha256:7006b7cc130e3983066127119f6ee70c7f9142aad0b7205c994b57b1496cb8f8"
     },
     {
       "asset_name": "RCTD__Zhang_initial_s3p5_expand5__CD2.rds",
       "logical_path": "results/rctd/Zhang_initial_s3p5_expand5__CD2/native_full_major.rds",
       "bytes": 571133325,
       "sha256": "18a56162bbf58dac8e78363ddaf776bbde26563e78031592a2ba3d272702fc6f",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__Zhang_initial_s3p5_expand5__CD2.rds",
+      "github_asset_id": 679005562,
+      "verified_server_digest": "sha256:18a56162bbf58dac8e78363ddaf776bbde26563e78031592a2ba3d272702fc6f"
     },
     {
       "asset_name": "RCTD__Zhang_initial_s3p5_nuclei__CD1.rds",
       "logical_path": "results/rctd/Zhang_initial_s3p5_nuclei__CD1/native_full_major.rds",
       "bytes": 391104334,
       "sha256": "228e0aa7c96831078da9e2ff51e97c5443e72d21dded15daab6dce2c9180f81b",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__Zhang_initial_s3p5_nuclei__CD1.rds",
+      "github_asset_id": 679006699,
+      "verified_server_digest": "sha256:228e0aa7c96831078da9e2ff51e97c5443e72d21dded15daab6dce2c9180f81b"
     },
     {
       "asset_name": "RCTD__Zhang_initial_s3p5_nuclei__CD2.rds",
       "logical_path": "results/rctd/Zhang_initial_s3p5_nuclei__CD2/native_full_major.rds",
       "bytes": 268095175,
       "sha256": "ee6d2d9c20ce56704d3f38a5001c69d7f40ca915c31acf527b5208df656e359a",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__Zhang_initial_s3p5_nuclei__CD2.rds",
+      "github_asset_id": 679007398,
+      "verified_server_digest": "sha256:ee6d2d9c20ce56704d3f38a5001c69d7f40ca915c31acf527b5208df656e359a"
     },
     {
       "asset_name": "RCTD__Zhang_revised_s2p5_expand5__CD1.rds",
       "logical_path": "results/rctd/Zhang_revised_s2p5_expand5__CD1/native_full_major.rds",
       "bytes": 959357553,
       "sha256": "8140d83421bc75e835ba133d3e436f78040f6721aa30897d2d2c982578776816",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__Zhang_revised_s2p5_expand5__CD1.rds",
+      "github_asset_id": 679007958,
+      "verified_server_digest": "sha256:8140d83421bc75e835ba133d3e436f78040f6721aa30897d2d2c982578776816"
     },
     {
       "asset_name": "RCTD__Zhang_revised_s2p5_expand5__CD2.rds",
       "logical_path": "results/rctd/Zhang_revised_s2p5_expand5__CD2/native_full_major.rds",
       "bytes": 655409071,
       "sha256": "46ec2e80c169be38b7c54ce6bbf64638302d850aa4313848eb9e54188cbb9ac9",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__Zhang_revised_s2p5_expand5__CD2.rds",
+      "github_asset_id": 679009700,
+      "verified_server_digest": "sha256:46ec2e80c169be38b7c54ce6bbf64638302d850aa4313848eb9e54188cbb9ac9"
     },
     {
       "asset_name": "RCTD__Zhang_revised_s2p5_nuclei__CD1.rds",
       "logical_path": "results/rctd/Zhang_revised_s2p5_nuclei__CD1/native_full_major.rds",
       "bytes": 450403600,
       "sha256": "56edd5b78b5c62969fa4b4b13868c3a56c09ba9ee662a95a8dc704b03db0a60f",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__Zhang_revised_s2p5_nuclei__CD1.rds",
+      "github_asset_id": 679010666,
+      "verified_server_digest": "sha256:56edd5b78b5c62969fa4b4b13868c3a56c09ba9ee662a95a8dc704b03db0a60f"
     },
     {
       "asset_name": "RCTD__Zhang_revised_s2p5_nuclei__CD2.rds",
       "logical_path": "results/rctd/Zhang_revised_s2p5_nuclei__CD2/native_full_major.rds",
       "bytes": 314508139,
       "sha256": "aeac619ce63dce90d77f42dbd1af0db334dccc18832a6c2030738b2cd36c1203",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__Zhang_revised_s2p5_nuclei__CD2.rds",
+      "github_asset_id": 679011496,
+      "verified_server_digest": "sha256:aeac619ce63dce90d77f42dbd1af0db334dccc18832a6c2030738b2cd36c1203"
     },
     {
       "asset_name": "RCTD__Zhang_revised_s3p5_expand5__CD1.rds",
       "logical_path": "results/rctd/Zhang_revised_s3p5_expand5__CD1/native_full_major.rds",
       "bytes": 901909769,
       "sha256": "2117f8ddfbff8c76596252298130e49492466d6db68dc93f7db864a7cd49bd40",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__Zhang_revised_s3p5_expand5__CD1.rds",
+      "github_asset_id": 679012173,
+      "verified_server_digest": "sha256:2117f8ddfbff8c76596252298130e49492466d6db68dc93f7db864a7cd49bd40"
     },
     {
       "asset_name": "RCTD__Zhang_revised_s3p5_expand5__CD2.rds",
       "logical_path": "results/rctd/Zhang_revised_s3p5_expand5__CD2/native_full_major.rds",
       "bytes": 612378075,
       "sha256": "1a2e4b87919647280defb822be05b0d0b2975d9625b10bb941037e36e498fad5",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__Zhang_revised_s3p5_expand5__CD2.rds",
+      "github_asset_id": 679013845,
+      "verified_server_digest": "sha256:1a2e4b87919647280defb822be05b0d0b2975d9625b10bb941037e36e498fad5"
     },
     {
       "asset_name": "RCTD__Zhang_revised_s3p5_nuclei__CD1.rds",
       "logical_path": "results/rctd/Zhang_revised_s3p5_nuclei__CD1/native_full_major.rds",
       "bytes": 411685148,
       "sha256": "df14a6373146490d76092d57e78293ac4c76fe955080898208d139cdec756428",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__Zhang_revised_s3p5_nuclei__CD1.rds",
+      "github_asset_id": 679014978,
+      "verified_server_digest": "sha256:df14a6373146490d76092d57e78293ac4c76fe955080898208d139cdec756428"
     },
     {
       "asset_name": "RCTD__Zhang_revised_s3p5_nuclei__CD2.rds",
       "logical_path": "results/rctd/Zhang_revised_s3p5_nuclei__CD2/native_full_major.rds",
       "bytes": 290087912,
       "sha256": "201168f9db4446fa0f7d6c9ec94b6a3a0ea632df39abc7fe2c563eeb3c2a1fbd",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__Zhang_revised_s3p5_nuclei__CD2.rds",
+      "github_asset_id": 679015901,
+      "verified_server_digest": "sha256:201168f9db4446fa0f7d6c9ec94b6a3a0ea632df39abc7fe2c563eeb3c2a1fbd"
     },
     {
       "asset_name": "RCTD__microSAM_LM_AIS__CD1.rds",
       "logical_path": "results/rctd/microSAM_LM_AIS__CD1/native_full_major.rds",
       "bytes": 75631611,
       "sha256": "5694885ab49d6137d0f9b28036c3ba83e418f5e492ab988e6dd55540191ed90f",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__microSAM_LM_AIS__CD1.rds",
+      "github_asset_id": 679016783,
+      "verified_server_digest": "sha256:5694885ab49d6137d0f9b28036c3ba83e418f5e492ab988e6dd55540191ed90f"
     },
     {
       "asset_name": "RCTD__microSAM_LM_AIS__CD2.rds",
       "logical_path": "results/rctd/microSAM_LM_AIS__CD2/native_full_major.rds",
       "bytes": 106382923,
       "sha256": "fe40b757a609a4b69fe889744e498a3af83651d743c5767410f72abda3b94eb1",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__microSAM_LM_AIS__CD2.rds",
+      "github_asset_id": 679017006,
+      "verified_server_digest": "sha256:fe40b757a609a4b69fe889744e498a3af83651d743c5767410f72abda3b94eb1"
     },
     {
       "asset_name": "RCTD__microSAM_LM_AMG__CD1.rds",
       "logical_path": "results/rctd/microSAM_LM_AMG__CD1/native_full_major.rds",
       "bytes": 1340557,
       "sha256": "d3189179e3f2fbcffc23ec97f01e033f770a7c805b92908346d55fd294821919",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__microSAM_LM_AMG__CD1.rds",
+      "github_asset_id": 679017209,
+      "verified_server_digest": "sha256:d3189179e3f2fbcffc23ec97f01e033f770a7c805b92908346d55fd294821919"
     },
     {
       "asset_name": "RCTD__microSAM_LM_AMG__CD2.rds",
       "logical_path": "results/rctd/microSAM_LM_AMG__CD2/native_full_major.rds",
       "bytes": 1340557,
       "sha256": "c39da84ff078edf588e899d6e2e4634f00813a265197867ae441a115503ffa32",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__microSAM_LM_AMG__CD2.rds",
+      "github_asset_id": 679017426,
+      "verified_server_digest": "sha256:c39da84ff078edf588e899d6e2e4634f00813a265197867ae441a115503ffa32"
     },
     {
       "asset_name": "RCTD__skimage_HE__CD1.rds",
       "logical_path": "results/rctd/skimage_HE__CD1/native_full_major.rds",
       "bytes": 284426361,
       "sha256": "cec8a9c9e4e48b3729baa4caa816385075100c9f38cfcbdf384e0981d76287c5",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__skimage_HE__CD1.rds",
+      "github_asset_id": 679017498,
+      "verified_server_digest": "sha256:cec8a9c9e4e48b3729baa4caa816385075100c9f38cfcbdf384e0981d76287c5"
     },
     {
       "asset_name": "RCTD__skimage_HE__CD2.rds",
       "logical_path": "results/rctd/skimage_HE__CD2/native_full_major.rds",
       "bytes": 201037556,
       "sha256": "af75b91019fc5d9d7d78da4ee44295b68858e92c97b43484bb99193710dcd657",
-      "type": "native_full_major_RCTD_bundle"
+      "type": "native_full_major_RCTD_bundle",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/RCTD__skimage_HE__CD2.rds",
+      "github_asset_id": 679018299,
+      "verified_server_digest": "sha256:af75b91019fc5d9d7d78da4ee44295b68858e92c97b43484bb99193710dcd657"
     },
     {
       "asset_name": "Zhang2025_CD_fibrostenosis_VisiumHD_GSE302569_counts_only.rds",
       "logical_path": "inputs/Zhang2025_CD_fibrostenosis_VisiumHD_GSE302569_counts_only.rds",
       "bytes": 587140194,
       "sha256": "61fef0eefef473ea297e7136d1bef9e275aedf5b55cf35f9f0b1a01095932129",
-      "type": "original_counts_only_Seurat_input_from_GEO"
+      "type": "original_counts_only_Seurat_input_from_GEO",
+      "download_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/download/data-v1/Zhang2025_CD_fibrostenosis_VisiumHD_GSE302569_counts_only.rds",
+      "github_asset_id": 679018712,
+      "verified_server_digest": "sha256:61fef0eefef473ea297e7136d1bef9e275aedf5b55cf35f9f0b1a01095932129"
     }
   ],
-  "storage": "GitHub Releases; no Git LFS"
+  "storage": "GitHub Releases; no Git LFS",
+  "release_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/tag/data-v1"
 }

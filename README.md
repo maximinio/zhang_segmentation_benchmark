@@ -19,10 +19,9 @@ fibrostenotic Crohn's disease. Authors: Luca Massimino and Federica Ungaro.
 
 ## Full data
 
-The native RCTD containers and the original counts-only Seurat input are being
-published in the project's data release. `metadata/release_assets.json` lists
-their logical paths, asset names, sizes and SHA-256 values. The verified release
-URL and download URLs will be recorded after the upload completes.
+The native RCTD containers and the original counts-only Seurat input are
+published in the verified data release: https://github.com/maximinio/zhang_segmentation_benchmark/releases/tag/data-v1. `metadata/release_assets.json` lists
+their logical paths, asset names, sizes and SHA-256 values. The manifest records verified download URLs and server-side checksums.
 
 No Git LFS subscription, paid storage or paid download service is required.
 Release assets are part of this project even though they do not appear as large
