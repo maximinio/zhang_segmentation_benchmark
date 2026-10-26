@@ -1,0 +1,113 @@
+{
+  "sample": "CD1",
+  "method": "PathoSAM_HE_AIS",
+  "target": "nuclear candidates",
+  "model": "vit_b_histopathology",
+  "input": "original RGB H&E; official tiled AIS",
+  "expansion_um": 0,
+  "source_umi": 103577252,
+  "source_umi_inside_image": 103576597,
+  "assigned_umi": 2636043,
+  "unassigned_umi": 100941209,
+  "assigned_umi_pct": 2.5450018697155627,
+  "assigned_umi_of_inside_image_pct": 2.5450179638552908,
+  "total_bins": 520101,
+  "assigned_bins": 9727,
+  "assigned_bins_pct": 1.8702136700371659,
+  "outside_image_bins": 397,
+  "outside_image_umi": 655,
+  "objects": 3418,
+  "objects_with_rna": 2094,
+  "objects_zero_rna": 1324,
+  "zero_rna_objects_pct": 38.73610298420129,
+  "area_um2": {
+    "p10": 105.58311606000001,
+    "p50": 203.34526056000004,
+    "p90": 635.4539392500001,
+    "p99": 1510.0731888047997,
+    "max": 4391.475530940001
+  },
+  "umi_per_object": {
+    "p10": 0.0,
+    "p50": 230.5,
+    "p90": 2035.9000000000005,
+    "p99": 7459.589999999995,
+    "max": 37455.0
+  },
+  "bins_per_object": {
+    "p10": 0.0,
+    "p50": 2.0,
+    "p90": 7.0,
+    "p99": 20.0,
+    "max": 66.0
+  },
+  "image_area_covered_pct": 1.8723845297718418,
+  "common_tissue_area_covered_pct": 2.159296033586875,
+  "corner_discordant_bins_pct": 3.8032997437036267,
+  "corner_discordant_umi_pct": 4.882838559957161,
+  "seconds_inference": 68.52199442498386,
+  "seconds_common_metrics": 2.9490453712642193,
+  "peak_process_rss_mb": 928.83984375,
+  "umi_conserved_exact": true,
+  "mask_readback_exact": true,
+  "label_md5": "ff034f753c7db4c105580ef0e5721bae",
+  "image_md5": "f5b175cb1559ea28ca30de964b385547",
+  "source_md5": "762bde2b546922d698290bc6f9a93018",
+  "status": "computed_not_biologically_validated",
+  "boundary_accuracy": "not measurable without independent ground truth",
+  "molecule_positions_available": false,
+  "configuration": {
+    "name": "PathoSAM_HE_AIS",
+    "model": "vit_b_histopathology",
+    "mode": "ais",
+    "runtime": "modern",
+    "target": "nuclear candidates",
+    "input": "original RGB H&E; official tiled AIS"
+  },
+  "extra": {
+    "sample": "CD1",
+    "method": "PathoSAM_HE_AIS",
+    "configuration": {
+      "name": "PathoSAM_HE_AIS",
+      "model": "vit_b_histopathology",
+      "mode": "ais",
+      "runtime": "modern",
+      "target": "nuclear candidates",
+      "input": "original RGB H&E; official tiled AIS"
+    },
+    "seconds_inference": 68.52199442498386,
+    "seconds_model_load": 24.09925191104412,
+    "peak_gpu_allocated_mb": 2827.54638671875,
+    "native_mask_readback_exact": true,
+    "native_mask_md5": "45936b6472ff41323e34cacf9fb7b0e9",
+    "shape": [
+      6000,
+      4792
+    ],
+    "model_output_not_thresholded_or_expanded": true,
+    "versions": {
+      "micro-sam": "1.8.14"
+    },
+    "inference_geometry": {
+      "um_per_pixel": 1.3983,
+      "native_image_shape": [
+        6000,
+        4792,
+        3
+      ],
+      "rescale_output_to_original_frame": null
+    },
+    "cellpose_precision": "bfloat16",
+    "native_parameters": {
+      "tile_shape": [
+        384,
+        384
+      ],
+      "halo": [
+        64,
+        64
+      ],
+      "output_mode": "instance_segmentation"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+cfg<-jsonlite::fromJSON(commandArgs(TRUE)[1]);d<-cfg$stage
+suppressPackageStartupMessages(library(Seurat));suppressPackageStartupMessages(library(Matrix));suppressPackageStartupMessages(library(SpatialExperiment))
+stopifnot(cfg$rctd_mode=='full',cfg$reference_labels=='major_cluster',cfg$reference_assay=='RNAraw')
+stopifnot(unname(tools::md5sum(cfg$reference))==cfg$reference_md5)
+ref<-readRDS(cfg$reference);rc<-LayerData(ref,assay=cfg$reference_assay,layer='counts');md<-ref[[]]
+stopifnot(identical(colnames(rc),rownames(md)),all(rc@x>=0),all(rc@x==floor(rc@x)),!anyNA(md[[cfg$reference_labels]]),all(nzchar(as.character(md[[cfg$reference_labels]]))))
+reference<-SummarizedExperiment::SummarizedExperiment(assays=list(counts=rc),colData=S4Vectors::DataFrame(md),rowData=S4Vectors::DataFrame(ref[[cfg$reference_assay]][[]]))
+saveRDS(reference,file.path(d,'reference.rds'),compress=FALSE);back<-readRDS(file.path(d,'reference.rds'))
+stopifnot(validObject(back),identical(assay(back,'counts'),rc),identical(colData(back),colData(reference)))
+jsonlite::write_json(list(source=cfg$reference,source_md5=cfg$reference_md5,assay=cfg$reference_assay,labels=cfg$reference_labels,major_counts=as.list(table(md[[cfg$reference_labels]])),cells=ncol(rc),genes=nrow(rc),raw_counts_exact=TRUE,md5=unname(tools::md5sum(file.path(d,'reference.rds')))),file.path(d,'reference.qa.json'),auto_unbox=TRUE,pretty=TRUE)
+rm(ref,rc,md,reference,back);gc()
+stopifnot(unname(tools::md5sum(cfg$source))==cfg$source_md5)
+original<-readRDS(cfg$source);raw<-LayerData(original,assay='Spatial',layer='counts');stopifnot(all(raw@x>=0),all(raw@x==floor(raw@x)))
+jobs<-jsonlite::fromJSON(file.path(d,'jobs.json'),simplifyVector=FALSE)$jobs
+out<-file.path(d,'counts');dir.create(out,showWarnings=FALSE)
+for(s in cfg$samples){
+ bins<-read.csv(file.path(cfg$archive,'provenance',paste0(s,'.bins.csv')),stringsAsFactors=FALSE)
+ co<-GetTissueCoordinates(original[[s]],scale=NULL);co<-co[match(bins$cell,co$cell),]
+ stopifnot(identical(co$cell,bins$cell),setequal(bins$cell,Cells(original[[s]])),max(abs(co$x-bins$x))<1e-7,max(abs(co$y-bins$y))<1e-7)
+ m<-raw[,bins$cell,drop=FALSE];stopifnot(identical(as.numeric(Matrix::colSums(m)),as.numeric(bins$nUMI)))
+ original_per_gene<-Matrix::rowSums(m)
+ for(job in jobs[vapply(jobs,function(j)j$sample==s,logical(1))]){
+  cat('AGGREGATING_ACCEPTED_MASK',job$job,'\n');flush.console()
+  stopifnot(unname(tools::md5sum(job$labels))==job$labels_md5,unname(tools::md5sum(job$regions))==job$regions_md5)
+  labels<-readBin(job$labels,integer(),n=ncol(m),size=4,endian='little');geom<-read.csv(job$regions,stringsAsFactors=FALSE)
+  stopifnot(length(labels)==ncol(m),nrow(geom)==job$regions_n,!anyDuplicated(geom$region_id))
+  assigned<-labels>0;idx<-match(labels[assigned],geom$source_label);stopifnot(!anyNA(idx))
+  indicator<-sparseMatrix(i=which(assigned),j=idx,x=1,dims=c(ncol(m),nrow(geom)),dimnames=list(colnames(m),geom$region_id))
+  agg<-as(m%*%indicator,'dgCMatrix');lost<-Matrix::rowSums(m[,!assigned,drop=FALSE])
+  stopifnot(identical(as.numeric(Matrix::rowSums(agg)+lost),as.numeric(original_per_gene)),sum(agg)==job$assigned_umi,sum(m)==job$source_umi,all(agg@x>=0),all(agg@x==floor(agg@x)))
+  geom$sample_id<-rep(s,nrow(geom));geom$method<-rep(job$method,nrow(geom));geom$n_source_bins<-as.integer(Matrix::colSums(indicator));geom$nUMI<-as.numeric(Matrix::colSums(agg));geom$nGenes<-as.integer(Matrix::colSums(agg>0));rownames(geom)<-geom$region_id
+  xy<-as.matrix(geom[,c('centroid_x_hires','centroid_y_hires'),drop=FALSE])/original[[s]]@scale.factors$hires;colnames(xy)<-c('x','y')
+  spe<-SpatialExperiment(assays=list(counts=agg),colData=S4Vectors::DataFrame(geom),spatialCoords=xy)
+  metadata(spe)<-list(source=cfg$source,source_md5=cfg$source_md5,source_catalog_id=cfg$source_catalog_id,mask=job$mask,mask_md5=job$mask_md5,accepted_assignment=job$assignment,accepted_assignment_md5=job$assignment_md5,assignment='Exact accepted whole 8um bin centre mapping; no molecular positions inferred',original_per_gene_umi=original_per_gene,unassigned_per_gene_umi=lost,source_umi=job$source_umi,assigned_umi=job$assigned_umi,target=job$target,no_resegmentation=TRUE,all_zero_RNA_regions_retained=TRUE)
+  target<-file.path(out,paste0(job$job,'.counts.rds'));stopifnot(!file.exists(target));saveRDS(spe,target,compress=FALSE);back<-readRDS(target)
+  stopifnot(validObject(back),identical(assays(back),assays(spe)),identical(colData(back),colData(spe)),identical(spatialCoords(back),spatialCoords(spe)),identical(metadata(back),metadata(spe)))
+  jsonlite::write_json(list(job=job$job,path=target,md5=unname(tools::md5sum(target)),regions=ncol(spe),zero_RNA_regions=sum(geom$nUMI==0),assigned_umi=sum(agg),unassigned_umi=sum(lost),source_umi=sum(m),per_gene_counts_conserved_exact=TRUE,counts_readback_exact=TRUE),file.path(out,paste0(job$job,'.qa.json')),auto_unbox=TRUE,pretty=TRUE)
+  cat('MASK_COUNTS_READBACK_PASS',job$job,ncol(spe),sum(agg),'\n');flush.console();rm(agg,spe,back,indicator);gc()
+ }
+ rm(m);gc()
+}
+cat('ALL_40_COUNTS_READBACK_PASS\n')

@@ -1,0 +1,107 @@
+{
+  "sample": "CD1",
+  "method": "InstanSeg_prior_fluor",
+  "target": "cell candidates; domain-mismatched prior model",
+  "model": "fluorescence_nuclei_and_cells",
+  "input": "original RGB H&E; explicitly out-of-domain",
+  "expansion_um": 0,
+  "source_umi": 103577252,
+  "source_umi_inside_image": 103576597,
+  "assigned_umi": 56578073,
+  "unassigned_umi": 46999179,
+  "assigned_umi_pct": 54.62403366329897,
+  "assigned_umi_of_inside_image_pct": 54.624379095984395,
+  "total_bins": 520101,
+  "assigned_bins": 250679,
+  "assigned_bins_pct": 48.198138438495604,
+  "outside_image_bins": 397,
+  "outside_image_umi": 655,
+  "objects": 230986,
+  "objects_with_rna": 150135,
+  "objects_zero_rna": 80851,
+  "zero_rna_objects_pct": 35.00255426735819,
+  "area_um2": {
+    "p10": 52.791558030000004,
+    "p50": 89.94117294000002,
+    "p90": 158.37467409,
+    "p99": 262.00254726000003,
+    "max": 664.7825826000001
+  },
+  "umi_per_object": {
+    "p10": 0.0,
+    "p50": 117.0,
+    "p90": 664.0,
+    "p99": 1693.1499999999942,
+    "max": 5426.0
+  },
+  "bins_per_object": {
+    "p10": 0.0,
+    "p50": 1.0,
+    "p90": 2.0,
+    "p99": 4.0,
+    "max": 12.0
+  },
+  "image_area_covered_pct": 41.05892459654981,
+  "common_tissue_area_covered_pct": 47.337484042368004,
+  "corner_discordant_bins_pct": 82.34785166727232,
+  "corner_discordant_umi_pct": 88.17553105193407,
+  "seconds_inference": 231.75650822743773,
+  "seconds_common_metrics": 2.55629968829453,
+  "peak_process_rss_mb": 816.9140625,
+  "umi_conserved_exact": true,
+  "mask_readback_exact": true,
+  "label_md5": "35fadf1f870e59e29cf09b118dad5dd6",
+  "image_md5": "f5b175cb1559ea28ca30de964b385547",
+  "source_md5": "762bde2b546922d698290bc6f9a93018",
+  "status": "computed_not_biologically_validated",
+  "boundary_accuracy": "not measurable without independent ground truth",
+  "molecule_positions_available": false,
+  "configuration": {
+    "name": "InstanSeg_prior_fluor",
+    "model": "fluorescence_nuclei_and_cells",
+    "runtime": "modern",
+    "target": "cell candidates; domain-mismatched prior model",
+    "input": "original RGB H&E; explicitly out-of-domain"
+  },
+  "extra": {
+    "sample": "CD1",
+    "method": "InstanSeg_prior_fluor",
+    "configuration": {
+      "name": "InstanSeg_prior_fluor",
+      "model": "fluorescence_nuclei_and_cells",
+      "runtime": "modern",
+      "target": "cell candidates; domain-mismatched prior model",
+      "input": "original RGB H&E; explicitly out-of-domain"
+    },
+    "seconds_inference": 231.75650822743773,
+    "seconds_model_load": 1.2677897401154041,
+    "peak_gpu_allocated_mb": 268.70458984375,
+    "native_mask_readback_exact": true,
+    "native_mask_md5": "49e81ed87c61cd92f70799e203b5d576",
+    "shape": [
+      6000,
+      4792
+    ],
+    "model_output_not_thresholded_or_expanded": true,
+    "versions": {
+      "instanseg-torch": "0.1.2"
+    },
+    "inference_geometry": {
+      "um_per_pixel": 1.3983,
+      "native_image_shape": [
+        6000,
+        4792,
+        3
+      ],
+      "rescale_output_to_original_frame": true
+    },
+    "cellpose_precision": "bfloat16",
+    "native_parameters": {
+      "tile_size": 512,
+      "batch_size": 1,
+      "target": "cells",
+      "pixel_size": 1.3983,
+      "rescale_output": true
+    }
+  }
+}

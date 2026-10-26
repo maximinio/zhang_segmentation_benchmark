@@ -1,0 +1,103 @@
+{
+  "sample": "CD2",
+  "method": "Cellpose3",
+  "target": "cell candidates",
+  "model": "cyto3",
+  "input": "hematoxylin uint8; bright nuclear signal, no invented DNA",
+  "expansion_um": 0,
+  "source_umi": 76019323,
+  "source_umi_inside_image": 76019148,
+  "assigned_umi": 2100220,
+  "unassigned_umi": 73919103,
+  "assigned_umi_pct": 2.7627449405199256,
+  "assigned_umi_of_inside_image_pct": 2.7627513005012894,
+  "total_bins": 468841,
+  "assigned_bins": 7658,
+  "assigned_bins_pct": 1.6333895713045574,
+  "outside_image_bins": 262,
+  "outside_image_umi": 175,
+  "objects": 1094,
+  "objects_with_rna": 793,
+  "objects_zero_rna": 301,
+  "zero_rna_objects_pct": 27.513711151736747,
+  "area_um2": {
+    "p10": 195.60444749999996,
+    "p50": 409.880228625,
+    "p90": 1283.6986422750003,
+    "p99": 3520.0976372099985,
+    "max": 5037.70363425
+  },
+  "umi_per_object": {
+    "p10": 0.0,
+    "p50": 732.0,
+    "p90": 3188.600000000001,
+    "p99": 24747.879999999932,
+    "max": 45256.0
+  },
+  "bins_per_object": {
+    "p10": 0.0,
+    "p50": 5.0,
+    "p90": 15.0,
+    "p99": 52.0,
+    "max": 77.0
+  },
+  "image_area_covered_pct": 1.2711959336959338,
+  "common_tissue_area_covered_pct": 1.9328842223575882,
+  "corner_discordant_bins_pct": 2.1060444798983022,
+  "corner_discordant_umi_pct": 3.168208956557006,
+  "seconds_inference": 44.95278153195977,
+  "seconds_common_metrics": 2.8927697110921144,
+  "peak_process_rss_mb": 783.5078125,
+  "umi_conserved_exact": true,
+  "mask_readback_exact": true,
+  "label_md5": "eae2ffaa07cc8a086d385025878fa4dd",
+  "image_md5": "6cb7a48208df8594cb2e50ca74a57b48",
+  "source_md5": "762bde2b546922d698290bc6f9a93018",
+  "status": "computed_not_biologically_validated",
+  "boundary_accuracy": "not measurable without independent ground truth",
+  "molecule_positions_available": false,
+  "configuration": {
+    "name": "Cellpose3",
+    "model": "cyto3",
+    "diameter_px": 20,
+    "runtime": "legacy",
+    "target": "cell candidates",
+    "input": "hematoxylin uint8; bright nuclear signal, no invented DNA"
+  },
+  "extra": {
+    "sample": "CD2",
+    "method": "Cellpose3",
+    "configuration": {
+      "name": "Cellpose3",
+      "model": "cyto3",
+      "diameter_px": 20,
+      "runtime": "legacy",
+      "target": "cell candidates",
+      "input": "hematoxylin uint8; bright nuclear signal, no invented DNA"
+    },
+    "seconds_inference": 44.95278153195977,
+    "seconds_model_load": 28.90430765040219,
+    "peak_gpu_allocated_mb": 1299.04052734375,
+    "native_mask_readback_exact": true,
+    "native_mask_md5": "bd8ef9c5b9e9d5658a756489f9d2d4a5",
+    "shape": [
+      6000,
+      5148
+    ],
+    "model_output_not_thresholded_or_expanded": true,
+    "versions": {
+      "cellpose": "3.1.1.2"
+    },
+    "inference_geometry": {
+      "um_per_pixel": 1.3335,
+      "native_image_shape": [
+        6000,
+        5148,
+        3
+      ],
+      "rescale_output_to_original_frame": null
+    },
+    "cellpose_precision": "bfloat16",
+    "actual_checkpoint": "/home/lmassimino/references/_staging/zhang_segmentation_benchmark_20261024/models/cellpose/cyto3"
+  }
+}

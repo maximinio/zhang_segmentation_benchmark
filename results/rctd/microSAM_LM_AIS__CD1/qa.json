@@ -1,0 +1,39 @@
+{
+  "job": "microSAM_LM_AIS__CD1",
+  "method": "microSAM_LM_AIS",
+  "sample": "CD1",
+  "status": "NATIVE_FULL_FIT_READBACK_VERIFIED",
+  "input_regions": 9934,
+  "zero_RNA_regions": 3505,
+  "source_umi": 103577252,
+  "assigned_umi": 8426436,
+  "unassigned_umi": 95150816,
+  "native_retained_regions": 5807,
+  "native_excluded_regions": 4127,
+  "retained_assigned_umi": 8388311,
+  "cell_types": [
+    "Myeloid",
+    "CD4T",
+    "CD8T",
+    "ILC",
+    "B_Plasma",
+    "Epithelial",
+    "Mesenchymal",
+    "Endothelial",
+    "Neural"
+  ],
+  "numeric_qa": {
+    "native_min": 5.111e-06,
+    "native_max": 1.2972,
+    "negative_entries": 0,
+    "above_one_entries": 244,
+    "column_sum_max_error": 0.713,
+    "domain_ok": false,
+    "native_values_preserved_without_clipping": true
+  },
+  "readback_exact": true,
+  "counts_conserved_exact": true,
+  "path": "/home/lmassimino/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/microSAM_LM_AIS__CD1/native_full_major.rds",
+  "md5": "32722872b23bb753cdcf802d3bfe8b76",
+  "bytes": 75631611
+}

@@ -1,0 +1,19 @@
+{
+  "archive": "/home/lmassimino/references/benchmarks/zhang_segmentation_benchmark_20261024",
+  "stage": "/home/lmassimino/references/_staging/zhang_all_masks_major_full_20261025",
+  "destination": "/home/lmassimino/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd",
+  "source": "/home/lmassimino/references/seurat/spatial/human/ibd/Zhang2025_CD_fibrostenosis_VisiumHD_GSE302569_counts_only.rds",
+  "source_md5": "762bde2b546922d698290bc6f9a93018",
+  "reference": "/home/lmassimino/references/seurat/single_cell/human/ibd/Nie2023_cd_ileum_scIBD.rds",
+  "reference_md5": "89892805fed73a7fa2521ff53132bd6b",
+  "reference_assay": "RNAraw",
+  "reference_labels": "major_cluster",
+  "source_catalog_id": 271,
+  "reference_catalog_id": 68,
+  "rctd_mode": "full",
+  "cores": 8,
+  "seed": 302569,
+  "samples": ["CD1", "CD2"],
+  "no_drive_upload": true,
+  "scientific_scope": "All 20 accepted configurations on both full sections, no resegmentation, no NormalizeData/SCTransform/clustering. Native createRctd preprocessing and filters unchanged. Deconvolution diagnostics are not boundary accuracy."
+}

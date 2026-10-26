@@ -1,0 +1,39 @@
+{
+  "job": "PathoSAM_HE_AIS__CD1",
+  "method": "PathoSAM_HE_AIS",
+  "sample": "CD1",
+  "status": "NATIVE_FULL_FIT_READBACK_VERIFIED",
+  "input_regions": 3418,
+  "zero_RNA_regions": 1324,
+  "source_umi": 103577252,
+  "assigned_umi": 2636043,
+  "unassigned_umi": 100941209,
+  "native_retained_regions": 1984,
+  "native_excluded_regions": 1434,
+  "retained_assigned_umi": 2629066,
+  "cell_types": [
+    "Myeloid",
+    "CD4T",
+    "CD8T",
+    "ILC",
+    "B_Plasma",
+    "Epithelial",
+    "Mesenchymal",
+    "Endothelial",
+    "Neural"
+  ],
+  "numeric_qa": {
+    "native_min": 3.5777e-06,
+    "native_max": 1.5405,
+    "negative_entries": 0,
+    "above_one_entries": 74,
+    "column_sum_max_error": 0.6849,
+    "domain_ok": false,
+    "native_values_preserved_without_clipping": true
+  },
+  "readback_exact": true,
+  "counts_conserved_exact": true,
+  "path": "/home/lmassimino/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/PathoSAM_HE_AIS__CD1/native_full_major.rds",
+  "md5": "59d803a1cbbee4caafbef299594a3fd0",
+  "bytes": 31687923
+}

@@ -1,0 +1,107 @@
+{
+  "sample": "CD1",
+  "method": "InstanSeg_HE",
+  "target": "nuclear candidates",
+  "model": "brightfield_nuclei",
+  "input": "original RGB H&E; original calibrated microns per pixel",
+  "expansion_um": 0,
+  "source_umi": 103577252,
+  "source_umi_inside_image": 103576597,
+  "assigned_umi": 17307900,
+  "unassigned_umi": 86269352,
+  "assigned_umi_pct": 16.71013631448728,
+  "assigned_umi_of_inside_image_pct": 16.71024198642093,
+  "total_bins": 520101,
+  "assigned_bins": 58970,
+  "assigned_bins_pct": 11.338182391497035,
+  "outside_image_bins": 397,
+  "outside_image_umi": 655,
+  "objects": 211462,
+  "objects_with_rna": 57964,
+  "objects_zero_rna": 153498,
+  "zero_rna_objects_pct": 72.58892850724953,
+  "area_um2": {
+    "p10": 13.686700230000001,
+    "p50": 23.462914680000004,
+    "p90": 37.149614910000004,
+    "p99": 58.65728670000001,
+    "max": 164.24040276000002
+  },
+  "umi_per_object": {
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 313.0,
+    "p99": 883.0,
+    "max": 3394.0
+  },
+  "bins_per_object": {
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 1.0,
+    "p99": 1.0,
+    "max": 4.0
+  },
+  "image_area_covered_pct": 9.414764190317197,
+  "common_tissue_area_covered_pct": 10.856680770830836,
+  "corner_discordant_bins_pct": 38.844570573792396,
+  "corner_discordant_umi_pct": 53.24304703507678,
+  "seconds_inference": 151.27982146665454,
+  "seconds_common_metrics": 2.7479422353208065,
+  "peak_process_rss_mb": 814.7890625,
+  "umi_conserved_exact": true,
+  "mask_readback_exact": true,
+  "label_md5": "a916a0bb1beb26869f3958929a07e4c8",
+  "image_md5": "f5b175cb1559ea28ca30de964b385547",
+  "source_md5": "762bde2b546922d698290bc6f9a93018",
+  "status": "computed_not_biologically_validated",
+  "boundary_accuracy": "not measurable without independent ground truth",
+  "molecule_positions_available": false,
+  "configuration": {
+    "name": "InstanSeg_HE",
+    "model": "brightfield_nuclei",
+    "runtime": "modern",
+    "target": "nuclear candidates",
+    "input": "original RGB H&E; original calibrated microns per pixel"
+  },
+  "extra": {
+    "sample": "CD1",
+    "method": "InstanSeg_HE",
+    "configuration": {
+      "name": "InstanSeg_HE",
+      "model": "brightfield_nuclei",
+      "runtime": "modern",
+      "target": "nuclear candidates",
+      "input": "original RGB H&E; original calibrated microns per pixel"
+    },
+    "seconds_inference": 151.27982146665454,
+    "seconds_model_load": 1.1222276650369167,
+    "peak_gpu_allocated_mb": 341.00048828125,
+    "native_mask_readback_exact": true,
+    "native_mask_md5": "1a785c9305e11c97bc4b03210930c19a",
+    "shape": [
+      6000,
+      4792
+    ],
+    "model_output_not_thresholded_or_expanded": true,
+    "versions": {
+      "instanseg-torch": "0.1.2"
+    },
+    "inference_geometry": {
+      "um_per_pixel": 1.3983,
+      "native_image_shape": [
+        6000,
+        4792,
+        3
+      ],
+      "rescale_output_to_original_frame": true
+    },
+    "cellpose_precision": "bfloat16",
+    "native_parameters": {
+      "tile_size": 512,
+      "batch_size": 1,
+      "target": "nuclei",
+      "pixel_size": 1.3983,
+      "rescale_output": true
+    }
+  }
+}

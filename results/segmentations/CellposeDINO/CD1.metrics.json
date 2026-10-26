@@ -1,0 +1,103 @@
+{
+  "sample": "CD1",
+  "method": "CellposeDINO",
+  "target": "cell candidates",
+  "model": "cpdino",
+  "input": "original RGB H&E",
+  "expansion_um": 0,
+  "source_umi": 103577252,
+  "source_umi_inside_image": 103576597,
+  "assigned_umi": 6254426,
+  "unassigned_umi": 97322826,
+  "assigned_umi_pct": 6.0384166206687935,
+  "assigned_umi_of_inside_image_pct": 6.038454806542833,
+  "total_bins": 520101,
+  "assigned_bins": 22188,
+  "assigned_bins_pct": 4.266094470112536,
+  "outside_image_bins": 397,
+  "outside_image_umi": 655,
+  "objects": 42902,
+  "objects_with_rna": 20390,
+  "objects_zero_rna": 22512,
+  "zero_rna_objects_pct": 52.473078178173516,
+  "area_um2": {
+    "p10": 31.283886240000005,
+    "p50": 41.060100690000006,
+    "p90": 68.43350115000001,
+    "p99": 123.18030207000002,
+    "max": 529.8708231900001
+  },
+  "umi_per_object": {
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 455.0,
+    "p99": 1068.989999999998,
+    "max": 3650.0
+  },
+  "bins_per_object": {
+    "p10": 0.0,
+    "p50": 0.0,
+    "p90": 1.0,
+    "p99": 2.0,
+    "max": 5.0
+  },
+  "image_area_covered_pct": 3.557039510294936,
+  "common_tissue_area_covered_pct": 4.102096115282249,
+  "corner_discordant_bins_pct": 16.794814853268885,
+  "corner_discordant_umi_pct": 23.63171886429271,
+  "seconds_inference": 321.9060671534389,
+  "seconds_common_metrics": 2.5117435809224844,
+  "peak_process_rss_mb": 763.109375,
+  "umi_conserved_exact": true,
+  "mask_readback_exact": true,
+  "label_md5": "2c05a4aa37b138af5f0481357d8b9d20",
+  "image_md5": "f5b175cb1559ea28ca30de964b385547",
+  "source_md5": "762bde2b546922d698290bc6f9a93018",
+  "status": "computed_not_biologically_validated",
+  "boundary_accuracy": "not measurable without independent ground truth",
+  "molecule_positions_available": false,
+  "configuration": {
+    "name": "CellposeDINO",
+    "model": "cpdino",
+    "diameter_px": 20,
+    "runtime": "modern",
+    "target": "cell candidates",
+    "input": "original RGB H&E"
+  },
+  "extra": {
+    "sample": "CD1",
+    "method": "CellposeDINO",
+    "configuration": {
+      "name": "CellposeDINO",
+      "model": "cpdino",
+      "diameter_px": 20,
+      "runtime": "modern",
+      "target": "cell candidates",
+      "input": "original RGB H&E"
+    },
+    "seconds_inference": 321.9060671534389,
+    "seconds_model_load": 22.268103700131178,
+    "peak_gpu_allocated_mb": 1717.08544921875,
+    "native_mask_readback_exact": true,
+    "native_mask_md5": "c706b727b6886fbc5afcb90310f6b3dd",
+    "shape": [
+      6000,
+      4792
+    ],
+    "model_output_not_thresholded_or_expanded": true,
+    "versions": {
+      "cellpose": "4.2.1"
+    },
+    "inference_geometry": {
+      "um_per_pixel": 1.3983,
+      "native_image_shape": [
+        6000,
+        4792,
+        3
+      ],
+      "rescale_output_to_original_frame": null
+    },
+    "cellpose_precision": "bfloat16",
+    "actual_checkpoint": "/home/lmassimino/references/_staging/zhang_segmentation_benchmark_20261024/models/cellpose/cpdino"
+  }
+}

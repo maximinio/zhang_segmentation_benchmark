@@ -1,0 +1,39 @@
+{
+  "job": "InstanSeg_HE__CD2",
+  "method": "InstanSeg_HE",
+  "sample": "CD2",
+  "status": "NATIVE_FULL_FIT_READBACK_VERIFIED",
+  "input_regions": 99547,
+  "zero_RNA_regions": 69665,
+  "source_umi": 76019323,
+  "assigned_umi": 9517888,
+  "unassigned_umi": 66501435,
+  "native_retained_regions": 24488,
+  "native_excluded_regions": 75059,
+  "retained_assigned_umi": 9215398,
+  "cell_types": [
+    "Myeloid",
+    "CD4T",
+    "CD8T",
+    "ILC",
+    "B_Plasma",
+    "Epithelial",
+    "Mesenchymal",
+    "Endothelial",
+    "Neural"
+  ],
+  "numeric_qa": {
+    "native_min": 0,
+    "native_max": 1.5023,
+    "negative_entries": 1,
+    "above_one_entries": 91,
+    "column_sum_max_error": 0.7954,
+    "domain_ok": false,
+    "native_values_preserved_without_clipping": true
+  },
+  "readback_exact": true,
+  "counts_conserved_exact": true,
+  "path": "/home/lmassimino/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/InstanSeg_HE__CD2/native_full_major.rds",
+  "md5": "80d0f5703711d7eba4ab724d5c06e826",
+  "bytes": 163974635
+}

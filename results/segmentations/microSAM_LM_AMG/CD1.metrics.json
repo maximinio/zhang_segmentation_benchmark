@@ -1,0 +1,114 @@
+{
+  "sample": "CD1",
+  "method": "microSAM_LM_AMG",
+  "target": "benchmark nuclear candidates",
+  "model": "vit_b_lm",
+  "input": "PIL L conversion of original H&E; original benchmark thresholds",
+  "expansion_um": 0,
+  "source_umi": 103577252,
+  "source_umi_inside_image": 103576597,
+  "assigned_umi": 0,
+  "unassigned_umi": 103577252,
+  "assigned_umi_pct": 0.0,
+  "assigned_umi_of_inside_image_pct": 0.0,
+  "total_bins": 520101,
+  "assigned_bins": 0,
+  "assigned_bins_pct": 0.0,
+  "outside_image_bins": 397,
+  "outside_image_umi": 655,
+  "objects": 0,
+  "objects_with_rna": 0,
+  "objects_zero_rna": 0,
+  "zero_rna_objects_pct": null,
+  "area_um2": {
+    "p10": null,
+    "p50": null,
+    "p90": null,
+    "p99": null,
+    "max": null
+  },
+  "umi_per_object": {
+    "p10": null,
+    "p50": null,
+    "p90": null,
+    "p99": null,
+    "max": null
+  },
+  "bins_per_object": {
+    "p10": null,
+    "p50": null,
+    "p90": null,
+    "p99": null,
+    "max": null
+  },
+  "image_area_covered_pct": 0.0,
+  "common_tissue_area_covered_pct": 0.0,
+  "corner_discordant_bins_pct": 0.0,
+  "corner_discordant_umi_pct": 0.0,
+  "seconds_inference": 2626.213044559583,
+  "seconds_common_metrics": 2.588918272405863,
+  "peak_process_rss_mb": 815.6328125,
+  "umi_conserved_exact": true,
+  "mask_readback_exact": true,
+  "label_md5": "55fe27cfca6f4b1157846f88dd37cc68",
+  "image_md5": "f5b175cb1559ea28ca30de964b385547",
+  "source_md5": "762bde2b546922d698290bc6f9a93018",
+  "status": "zero_recovery",
+  "boundary_accuracy": "not measurable without independent ground truth",
+  "molecule_positions_available": false,
+  "configuration": {
+    "name": "microSAM_LM_AMG",
+    "model": "vit_b_lm",
+    "mode": "amg",
+    "runtime": "modern",
+    "target": "benchmark nuclear candidates",
+    "input": "PIL L conversion of original H&E; original benchmark thresholds"
+  },
+  "extra": {
+    "sample": "CD1",
+    "method": "microSAM_LM_AMG",
+    "configuration": {
+      "name": "microSAM_LM_AMG",
+      "model": "vit_b_lm",
+      "mode": "amg",
+      "runtime": "modern",
+      "target": "benchmark nuclear candidates",
+      "input": "PIL L conversion of original H&E; original benchmark thresholds"
+    },
+    "seconds_inference": 2626.213044559583,
+    "seconds_model_load": 146.2859783731401,
+    "peak_gpu_allocated_mb": 2783.71142578125,
+    "native_mask_readback_exact": true,
+    "native_mask_md5": "623c0fa42e66173fd504acb53f3d2f3d",
+    "shape": [
+      6000,
+      4792
+    ],
+    "model_output_not_thresholded_or_expanded": true,
+    "versions": {
+      "micro-sam": "1.8.14"
+    },
+    "inference_geometry": {
+      "um_per_pixel": 1.3983,
+      "native_image_shape": [
+        6000,
+        4792,
+        3
+      ],
+      "rescale_output_to_original_frame": null
+    },
+    "cellpose_precision": "bfloat16",
+    "native_parameters": {
+      "tile_shape": [
+        1200,
+        1200
+      ],
+      "halo": [
+        128,
+        128
+      ],
+      "pred_iou_thresh": 0.88,
+      "stability_score_thresh": 0.95
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "job": "Cellpose3__CD2",
+  "method": "Cellpose3",
+  "sample": "CD2",
+  "status": "NATIVE_FULL_FIT_READBACK_VERIFIED",
+  "input_regions": 1094,
+  "zero_RNA_regions": 301,
+  "source_umi": 76019323,
+  "assigned_umi": 2100220,
+  "unassigned_umi": 73919103,
+  "native_retained_regions": 771,
+  "native_excluded_regions": 323,
+  "retained_assigned_umi": 2098961,
+  "cell_types": [
+    "Myeloid",
+    "CD4T",
+    "CD8T",
+    "ILC",
+    "B_Plasma",
+    "Epithelial",
+    "Mesenchymal",
+    "Endothelial",
+    "Neural"
+  ],
+  "numeric_qa": {
+    "native_min": 7.3014e-06,
+    "native_max": 1.1447,
+    "negative_entries": 0,
+    "above_one_entries": 54,
+    "column_sum_max_error": 0.6546,
+    "domain_ok": false,
+    "native_values_preserved_without_clipping": true
+  },
+  "readback_exact": true,
+  "counts_conserved_exact": true,
+  "path": "/home/lmassimino/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Cellpose3__CD2/native_full_major.rds",
+  "md5": "99f4cff0f2a4ec6a6f91457d2dbe4e47",
+  "bytes": 21646099
+}

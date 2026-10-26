@@ -1,0 +1,20 @@
+"method","method_id","method_label","assigned_fraction","contribution"
+"Cellpose3","01","Cellpose cyto3",0.0210841772919385,0.749311357122725
+"CellposeDINO","05","Cellpose DINO",0.0454127264126773,0.683045385438646
+"CellposeDINOsmall","04","Cellpose DINO small",0.0685979342336531,0.647144098966091
+"CellposeSAM","02","Cellpose cpsam",0.052360729135542,0.711772735825008
+"CellposeSAMv2","03","Cellpose cpsam v2",0.0442716071161055,0.706929932319541
+"InstanSeg_HE","07","InstanSeg H&E nuclei",0.146152449283522,0.62591462484829
+"InstanSeg_prior_fluor","06","InstanSeg fluorescence",0.466640248730786,0.650229582066652
+"microSAM_LM_AIS","08","microSAM AIS",0.136381581478497,0.769549339169146
+"OpenCV_HE","12","OpenCV H&E",0.0583382868056904,0.66582938895584
+"PathoSAM_HE_AIS","10","PathoSAM AIS",0.0557925725785213,0.760370833408566
+"skimage_HE","11","scikit-image H&E",0.306484763846854,0.638441380558205
+"Zhang_initial_s2p5_expand5","14","Watershed A: +5 µm",0.693661284386225,0.633065330229049
+"Zhang_initial_s2p5_nuclei","13","Watershed A: nuclei",0.299540763182824,0.642893916005331
+"Zhang_initial_s3p5_expand5","16","Watershed B: +5 µm",0.693289997756818,0.62695159483735
+"Zhang_initial_s3p5_nuclei","15","Watershed B: nuclei",0.299288666613784,0.637910557637886
+"Zhang_revised_s2p5_expand5","18","Watershed C: +5 µm",0.691740897511351,0.63643111891793
+"Zhang_revised_s2p5_nuclei","17","Watershed C: nuclei",0.279411895266431,0.646053343853789
+"Zhang_revised_s3p5_expand5","20","Watershed D: +5 µm",0.691358612351943,0.630331051786016
+"Zhang_revised_s3p5_nuclei","19","Watershed D: nuclei",0.279158384724764,0.640845510829189

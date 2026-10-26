@@ -1,0 +1,39 @@
+{
+  "job": "OpenCV_HE__CD1",
+  "method": "OpenCV_HE",
+  "sample": "CD1",
+  "status": "NATIVE_FULL_FIT_READBACK_VERIFIED",
+  "input_regions": 42695,
+  "zero_RNA_regions": 31863,
+  "source_umi": 103577252,
+  "assigned_umi": 4948519,
+  "unassigned_umi": 98628733,
+  "native_retained_regions": 8926,
+  "native_excluded_regions": 33769,
+  "retained_assigned_umi": 4825224,
+  "cell_types": [
+    "Myeloid",
+    "CD4T",
+    "CD8T",
+    "ILC",
+    "B_Plasma",
+    "Epithelial",
+    "Mesenchymal",
+    "Endothelial",
+    "Neural"
+  ],
+  "numeric_qa": {
+    "native_min": 1.7531e-06,
+    "native_max": 1.5782,
+    "negative_entries": 0,
+    "above_one_entries": 280,
+    "column_sum_max_error": 0.8108,
+    "domain_ok": false,
+    "native_values_preserved_without_clipping": true
+  },
+  "readback_exact": true,
+  "counts_conserved_exact": true,
+  "path": "/home/lmassimino/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/OpenCV_HE__CD1/native_full_major.rds",
+  "md5": "cae047021b2fbaab96268dfaa6ec8cce",
+  "bytes": 67369699
+}

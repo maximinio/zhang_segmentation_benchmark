@@ -1,0 +1,39 @@
+{
+  "job": "InstanSeg_prior_fluor__CD1",
+  "method": "InstanSeg_prior_fluor",
+  "sample": "CD1",
+  "status": "NATIVE_FULL_FIT_READBACK_VERIFIED",
+  "input_regions": 230986,
+  "zero_RNA_regions": 80851,
+  "source_umi": 103577252,
+  "assigned_umi": 56578073,
+  "unassigned_umi": 46999179,
+  "native_retained_regions": 122324,
+  "native_excluded_regions": 108662,
+  "retained_assigned_umi": 54847219,
+  "cell_types": [
+    "Myeloid",
+    "CD4T",
+    "CD8T",
+    "ILC",
+    "B_Plasma",
+    "Epithelial",
+    "Mesenchymal",
+    "Endothelial",
+    "Neural"
+  ],
+  "numeric_qa": {
+    "native_min": 3.4663e-08,
+    "native_max": 1.7263,
+    "negative_entries": 0,
+    "above_one_entries": 3639,
+    "column_sum_max_error": 0.8872,
+    "domain_ok": false,
+    "native_values_preserved_without_clipping": true
+  },
+  "readback_exact": true,
+  "counts_conserved_exact": true,
+  "path": "/home/lmassimino/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/InstanSeg_prior_fluor__CD1/native_full_major.rds",
+  "md5": "5f2c792e0cbfdb5b10143395048a67a0",
+  "bytes": 712528932
+}

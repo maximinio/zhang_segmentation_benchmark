@@ -1,0 +1,72 @@
+{
+  "sample": "CD1",
+  "method": "Zhang_initial_s2p5_expand5",
+  "target": "expanded nuclear candidates",
+  "model": "classical watershed",
+  "input": "hematoxylin from original H&E",
+  "expansion_um": 5,
+  "source_umi": 103577252,
+  "source_umi_inside_image": 103576597,
+  "assigned_umi": 77353849,
+  "unassigned_umi": 26223403,
+  "assigned_umi_pct": 74.68227579546134,
+  "assigned_umi_of_inside_image_pct": 74.68274807290686,
+  "total_bins": 520101,
+  "assigned_bins": 293942,
+  "assigned_bins_pct": 56.51633048196408,
+  "outside_image_bins": 397,
+  "outside_image_umi": 655,
+  "objects": 291533,
+  "objects_with_rna": 167803,
+  "objects_zero_rna": 123730,
+  "zero_rna_objects_pct": 42.44116446508628,
+  "area_um2": {
+    "p10": 29.328643350000004,
+    "p50": 76.25447271000002,
+    "p90": 154.46418831000003,
+    "p99": 291.33119061,
+    "max": 29049.043616730003
+  },
+  "umi_per_object": {
+    "p10": 0.0,
+    "p50": 95.0,
+    "p90": 672.0,
+    "p99": 2076.0,
+    "max": 181979.0
+  },
+  "bins_per_object": {
+    "p10": 0.0,
+    "p50": 1.0,
+    "p90": 2.0,
+    "p99": 4.0,
+    "max": 450.0
+  },
+  "image_area_covered_pct": 46.893210907067335,
+  "common_tissue_area_covered_pct": 54.07880844119225,
+  "corner_discordant_bins_pct": 74.9327534459653,
+  "corner_discordant_umi_pct": 85.53219195272723,
+  "seconds_inference": 1302.6544532794505,
+  "seconds_common_metrics": 2.985914183780551,
+  "peak_process_rss_mb": 2694.5234375,
+  "umi_conserved_exact": true,
+  "mask_readback_exact": true,
+  "label_md5": "e8c9c9e9a3c0703e106ee16cb4e3ce77",
+  "image_md5": "f5b175cb1559ea28ca30de964b385547",
+  "source_md5": "762bde2b546922d698290bc6f9a93018",
+  "status": "computed_not_biologically_validated",
+  "boundary_accuracy": "not measurable without independent ground truth",
+  "molecule_positions_available": false,
+  "configuration": {
+    "name": "Zhang_initial_s2p5_expand5",
+    "backend": "zhang",
+    "holes": "all",
+    "spacing_um": 2.5,
+    "expansion_um": 5
+  },
+  "extra": {
+    "effective_seed_spacing_px": 2,
+    "hematoxylin_threshold": 0.029265649940389098,
+    "holes": "all",
+    "no_cell_identity_inferred": true
+  }
+}

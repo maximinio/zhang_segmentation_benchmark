@@ -1,0 +1,39 @@
+{
+  "job": "CellposeDINO__CD1",
+  "method": "CellposeDINO",
+  "sample": "CD1",
+  "status": "NATIVE_FULL_FIT_READBACK_VERIFIED",
+  "input_regions": 42902,
+  "zero_RNA_regions": 22512,
+  "source_umi": 103577252,
+  "assigned_umi": 6254426,
+  "unassigned_umi": 97322826,
+  "native_retained_regions": 16287,
+  "native_excluded_regions": 26615,
+  "retained_assigned_umi": 5992170,
+  "cell_types": [
+    "Myeloid",
+    "CD4T",
+    "CD8T",
+    "ILC",
+    "B_Plasma",
+    "Epithelial",
+    "Mesenchymal",
+    "Endothelial",
+    "Neural"
+  ],
+  "numeric_qa": {
+    "native_min": 8.59e-07,
+    "native_max": 1.6828,
+    "negative_entries": 0,
+    "above_one_entries": 477,
+    "column_sum_max_error": 0.8739,
+    "domain_ok": false,
+    "native_values_preserved_without_clipping": true
+  },
+  "readback_exact": true,
+  "counts_conserved_exact": true,
+  "path": "/home/lmassimino/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/CellposeDINO__CD1/native_full_major.rds",
+  "md5": "82069ed37d365a0de80883255c330c87",
+  "bytes": 86411079
+}

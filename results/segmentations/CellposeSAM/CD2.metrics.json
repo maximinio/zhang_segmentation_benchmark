@@ -1,0 +1,103 @@
+{
+  "sample": "CD2",
+  "method": "CellposeSAM",
+  "target": "cell candidates",
+  "model": "cpsam",
+  "input": "original RGB H&E",
+  "expansion_um": 0,
+  "source_umi": 76019323,
+  "source_umi_inside_image": 76019148,
+  "assigned_umi": 4078718,
+  "unassigned_umi": 71940605,
+  "assigned_umi_pct": 5.365370065187242,
+  "assigned_umi_of_inside_image_pct": 5.365382416545894,
+  "total_bins": 468841,
+  "assigned_bins": 12952,
+  "assigned_bins_pct": 2.762557028928784,
+  "outside_image_bins": 262,
+  "outside_image_umi": 175,
+  "objects": 17594,
+  "objects_with_rna": 10536,
+  "objects_zero_rna": 7058,
+  "zero_rna_objects_pct": 40.115948618847334,
+  "area_um2": {
+    "p10": 28.451555999999997,
+    "p50": 44.455556249999994,
+    "p90": 81.79822349999999,
+    "p99": 115.58444624999998,
+    "max": 10797.365501999999
+  },
+  "umi_per_object": {
+    "p10": 0.0,
+    "p50": 123.0,
+    "p90": 635.0,
+    "p99": 1300.0,
+    "max": 5463.0
+  },
+  "bins_per_object": {
+    "p10": 0.0,
+    "p50": 1.0,
+    "p90": 2.0,
+    "p99": 2.0,
+    "max": 135.0
+  },
+  "image_area_covered_pct": 1.8394813519813522,
+  "common_tissue_area_covered_pct": 2.580609477652313,
+  "corner_discordant_bins_pct": 9.606881650708877,
+  "corner_discordant_umi_pct": 18.04881503614548,
+  "seconds_inference": 222.23570889607072,
+  "seconds_common_metrics": 2.8084352407604456,
+  "peak_process_rss_mb": 782.44921875,
+  "umi_conserved_exact": true,
+  "mask_readback_exact": true,
+  "label_md5": "22ae62d8601b12fa5c5d611faf6fa5be",
+  "image_md5": "6cb7a48208df8594cb2e50ca74a57b48",
+  "source_md5": "762bde2b546922d698290bc6f9a93018",
+  "status": "computed_not_biologically_validated",
+  "boundary_accuracy": "not measurable without independent ground truth",
+  "molecule_positions_available": false,
+  "configuration": {
+    "name": "CellposeSAM",
+    "model": "cpsam",
+    "diameter_px": 20,
+    "runtime": "modern",
+    "target": "cell candidates",
+    "input": "original RGB H&E"
+  },
+  "extra": {
+    "sample": "CD2",
+    "method": "CellposeSAM",
+    "configuration": {
+      "name": "CellposeSAM",
+      "model": "cpsam",
+      "diameter_px": 20,
+      "runtime": "modern",
+      "target": "cell candidates",
+      "input": "original RGB H&E"
+    },
+    "seconds_inference": 222.23570889607072,
+    "seconds_model_load": 20.358760131523013,
+    "peak_gpu_allocated_mb": 1077.412109375,
+    "native_mask_readback_exact": true,
+    "native_mask_md5": "8b20a4acf7f292fa0b91d5c1e5962084",
+    "shape": [
+      6000,
+      5148
+    ],
+    "model_output_not_thresholded_or_expanded": true,
+    "versions": {
+      "cellpose": "4.2.1"
+    },
+    "inference_geometry": {
+      "um_per_pixel": 1.3335,
+      "native_image_shape": [
+        6000,
+        5148,
+        3
+      ],
+      "rescale_output_to_original_frame": null
+    },
+    "cellpose_precision": "bfloat16",
+    "actual_checkpoint": "/home/lmassimino/references/_staging/zhang_segmentation_benchmark_20261024/models/cellpose/cpsam"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "stage": "/home/lmassimino/references/_staging/zhang_segmentation_benchmark_20261024",
+  "output": "/home/lmassimino/references/benchmarks/zhang_segmentation_benchmark_20261024",
+  "local_output": "C:/Users/utente/Documents/Codex/outputs/zhang_segmentation_benchmark_20261024",
+  "source": "/home/lmassimino/references/seurat/spatial/human/ibd/Zhang2025_CD_fibrostenosis_VisiumHD_GSE302569_counts_only.rds",
+  "source_md5": "762bde2b546922d698290bc6f9a93018",
+  "source_catalog_id": 271,
+  "samples": ["CD1", "CD2"],
+  "bin_um": 8,
+  "seed": 302569,
+  "scope": "All previously tested segmentation methods rerun on both complete Zhang H&E sections. Benchmark only: no RCTD, no reference promotion, no automatic winner.",
+  "common_assignment": "Original bin centre, using original native fullres coordinates times original hires scale. Entire integer UMI vector assigned once; outside-image and background bins remain unassigned. No inferred transcript positions.",
+  "classical_variants": [
+    {"name":"skimage_HE","backend":"skimage","holes":"micro","spacing_um":null,"spacing_px":10,"expansion_um":0},
+    {"name":"OpenCV_HE","backend":"opencv","holes":"micro","spacing_um":null,"spacing_px":10,"expansion_um":0},
+    {"name":"Zhang_initial_s2p5_nuclei","backend":"zhang","holes":"all","spacing_um":2.5,"expansion_um":0},
+    {"name":"Zhang_initial_s2p5_expand5","backend":"zhang","holes":"all","spacing_um":2.5,"expansion_um":5},
+    {"name":"Zhang_initial_s3p5_nuclei","backend":"zhang","holes":"all","spacing_um":3.5,"expansion_um":0},
+    {"name":"Zhang_initial_s3p5_expand5","backend":"zhang","holes":"all","spacing_um":3.5,"expansion_um":5},
+    {"name":"Zhang_revised_s2p5_nuclei","backend":"zhang","holes":"micro","spacing_um":2.5,"expansion_um":0},
+    {"name":"Zhang_revised_s2p5_expand5","backend":"zhang","holes":"micro","spacing_um":2.5,"expansion_um":5},
+    {"name":"Zhang_revised_s3p5_nuclei","backend":"zhang","holes":"micro","spacing_um":3.5,"expansion_um":0},
+    {"name":"Zhang_revised_s3p5_expand5","backend":"zhang","holes":"micro","spacing_um":3.5,"expansion_um":5}
+  ],
+  "learned_variants": [
+    {"name":"Cellpose3","model":"cyto3","diameter_px":20,"runtime":"legacy","target":"cell candidates","input":"hematoxylin uint8; bright nuclear signal, no invented DNA"},
+    {"name":"CellposeSAM","model":"cpsam","diameter_px":20,"runtime":"modern","target":"cell candidates","input":"original RGB H&E"},
+    {"name":"CellposeSAMv2","model":"cpsam_v2","diameter_px":20,"runtime":"modern","target":"cell candidates","input":"original RGB H&E"},
+    {"name":"CellposeDINOsmall","model":"cpdino-vitb","diameter_px":20,"runtime":"modern","target":"cell candidates","input":"original RGB H&E"},
+    {"name":"CellposeDINO","model":"cpdino","diameter_px":20,"runtime":"modern","target":"cell candidates","input":"original RGB H&E"},
+    {"name":"InstanSeg_prior_fluor","model":"fluorescence_nuclei_and_cells","runtime":"modern","target":"cell candidates; domain-mismatched prior model","input":"original RGB H&E; explicitly out-of-domain"},
+    {"name":"InstanSeg_HE","model":"brightfield_nuclei","runtime":"modern","target":"nuclear candidates","input":"original RGB H&E; original calibrated microns per pixel"},
+    {"name":"microSAM_LM_AIS","model":"vit_b_lm","mode":"ais","runtime":"modern","target":"microscopy candidates; H&E domain mismatch","input":"original RGB H&E"},
+    {"name":"microSAM_LM_AMG","model":"vit_b_lm","mode":"amg","runtime":"modern","target":"benchmark nuclear candidates","input":"PIL L conversion of original H&E; original benchmark thresholds"},
+    {"name":"PathoSAM_HE_AIS","model":"vit_b_histopathology","mode":"ais","runtime":"modern","target":"nuclear candidates","input":"original RGB H&E; official tiled AIS"}
+  ],
+  "version_pins": {"torch":"2.5.1+cu121","torchvision":"0.20.1+cu121","cellpose_legacy":"3.1.1.2","cellpose_modern":"4.2.1","instanseg-torch":"0.1.2","micro-sam":"1.8.14","dinov3_commit":"6876159a11b4df116f30f667f8c9888617df0751"},
+  "method_notes": ["The old nominal 4.5 um seed setting rounded to the same pixel spacing as 3.5 um on both sections: verify and report aliases, do not count duplicate settings as independent methods.","Nuclear masks and 5um-expanded masks are separate variants, not equivalent targets.","The original Du inputs were protein composites. Here all methods use Zhang H&E; interface-specific preprocessing is explicit.","No boundary ground truth or molecule coordinates are distributed: no invented accuracy, fusion rate, CellSPA score or recovered single-cell transcript counts."]
+}

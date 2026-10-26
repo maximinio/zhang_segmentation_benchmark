@@ -1,0 +1,113 @@
+{
+  "sample": "CD1",
+  "method": "microSAM_LM_AIS",
+  "target": "microscopy candidates; H&E domain mismatch",
+  "model": "vit_b_lm",
+  "input": "original RGB H&E",
+  "expansion_um": 0,
+  "source_umi": 103577252,
+  "source_umi_inside_image": 103576597,
+  "assigned_umi": 8426436,
+  "unassigned_umi": 95150816,
+  "assigned_umi_pct": 8.13541181803124,
+  "assigned_umi_of_inside_image_pct": 8.135463264930397,
+  "total_bins": 520101,
+  "assigned_bins": 52350,
+  "assigned_bins_pct": 10.065352691111919,
+  "outside_image_bins": 397,
+  "outside_image_umi": 655,
+  "objects": 9934,
+  "objects_with_rna": 6429,
+  "objects_zero_rna": 3505,
+  "zero_rna_objects_pct": 35.28286692168311,
+  "area_um2": {
+    "p10": 89.94117294000002,
+    "p50": 248.31584703000004,
+    "p90": 713.6636548500001,
+    "p99": 5643.534867980402,
+    "max": 69415.03308078
+  },
+  "umi_per_object": {
+    "p10": 0.0,
+    "p50": 198.0,
+    "p90": 1485.0,
+    "p99": 12911.500000000004,
+    "max": 150944.0
+  },
+  "bins_per_object": {
+    "p10": 0.0,
+    "p50": 2.0,
+    "p90": 9.0,
+    "p99": 74.34000000000015,
+    "max": 1102.0
+  },
+  "image_area_covered_pct": 8.584108931552588,
+  "common_tissue_area_covered_pct": 9.813548597116178,
+  "corner_discordant_bins_pct": 11.581981192114608,
+  "corner_discordant_umi_pct": 9.46044697150297,
+  "seconds_inference": 68.76424385234714,
+  "seconds_common_metrics": 2.891764886677265,
+  "peak_process_rss_mb": 926.0,
+  "umi_conserved_exact": true,
+  "mask_readback_exact": true,
+  "label_md5": "3475a596c76171fe513ef5d970cd7342",
+  "image_md5": "f5b175cb1559ea28ca30de964b385547",
+  "source_md5": "762bde2b546922d698290bc6f9a93018",
+  "status": "computed_not_biologically_validated",
+  "boundary_accuracy": "not measurable without independent ground truth",
+  "molecule_positions_available": false,
+  "configuration": {
+    "name": "microSAM_LM_AIS",
+    "model": "vit_b_lm",
+    "mode": "ais",
+    "runtime": "modern",
+    "target": "microscopy candidates; H&E domain mismatch",
+    "input": "original RGB H&E"
+  },
+  "extra": {
+    "sample": "CD1",
+    "method": "microSAM_LM_AIS",
+    "configuration": {
+      "name": "microSAM_LM_AIS",
+      "model": "vit_b_lm",
+      "mode": "ais",
+      "runtime": "modern",
+      "target": "microscopy candidates; H&E domain mismatch",
+      "input": "original RGB H&E"
+    },
+    "seconds_inference": 68.76424385234714,
+    "seconds_model_load": 9.870104759931564,
+    "peak_gpu_allocated_mb": 2822.06201171875,
+    "native_mask_readback_exact": true,
+    "native_mask_md5": "72fb373c007e156d1e715c94b713f655",
+    "shape": [
+      6000,
+      4792
+    ],
+    "model_output_not_thresholded_or_expanded": true,
+    "versions": {
+      "micro-sam": "1.8.14"
+    },
+    "inference_geometry": {
+      "um_per_pixel": 1.3983,
+      "native_image_shape": [
+        6000,
+        4792,
+        3
+      ],
+      "rescale_output_to_original_frame": null
+    },
+    "cellpose_precision": "bfloat16",
+    "native_parameters": {
+      "tile_shape": [
+        384,
+        384
+      ],
+      "halo": [
+        64,
+        64
+      ],
+      "output_mode": "instance_segmentation"
+    }
+  }
+}

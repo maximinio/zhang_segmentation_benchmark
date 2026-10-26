@@ -1,0 +1,39 @@
+{
+  "job": "Zhang_revised_s3p5_expand5__CD1",
+  "method": "Zhang_revised_s3p5_expand5",
+  "sample": "CD1",
+  "status": "NATIVE_FULL_FIT_READBACK_VERIFIED",
+  "input_regions": 222174,
+  "zero_RNA_regions": 74267,
+  "source_umi": 103577252,
+  "assigned_umi": 77188681,
+  "unassigned_umi": 26388571,
+  "native_retained_regions": 132060,
+  "native_excluded_regions": 90114,
+  "retained_assigned_umi": 76125112,
+  "cell_types": [
+    "Myeloid",
+    "CD4T",
+    "CD8T",
+    "ILC",
+    "B_Plasma",
+    "Epithelial",
+    "Mesenchymal",
+    "Endothelial",
+    "Neural"
+  ],
+  "numeric_qa": {
+    "native_min": -3.2532e-13,
+    "native_max": 1.8326,
+    "negative_entries": 0,
+    "above_one_entries": 4317,
+    "column_sum_max_error": 0.8481,
+    "domain_ok": false,
+    "native_values_preserved_without_clipping": true
+  },
+  "readback_exact": true,
+  "counts_conserved_exact": true,
+  "path": "/home/lmassimino/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_revised_s3p5_expand5__CD1/native_full_major.rds",
+  "md5": "c13b090a0ae3970bac875c893fbc7581",
+  "bytes": 901909769
+}

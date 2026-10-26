@@ -1,0 +1,32 @@
+{
+  "files": [
+    "polygonize_zhang_selected.py",
+    "rctd_native_weight_qa.R",
+    "zhang_all_masks_major_full_config.json",
+    "zhang_all_masks_major_full_counts.R",
+    "zhang_all_masks_major_full_fit.R",
+    "zhang_all_masks_major_full_prepare.py",
+    "zhang_all_masks_major_full_protocol.md",
+    "zhang_all_masks_major_full_run.py",
+    "zhang_benchmark_classical.py",
+    "zhang_benchmark_common.py",
+    "zhang_benchmark_config.json",
+    "zhang_benchmark_export.R",
+    "zhang_benchmark_learned.py",
+    "zhang_benchmark_protocol.md",
+    "zhang_benchmark_report.py",
+    "zhang_benchmark_validate.py",
+    "zhang_figure1_prepare.py",
+    "zhang_figure1_render.R",
+    "zhang_figure3_agreement.py",
+    "zhang_figure3_extract.R",
+    "zhang_figure3_rank_summary.R",
+    "zhang_figure3_render.R",
+    "zhang_major_call_supplement.R",
+    "zhang_major_call_supplement.py"
+  ],
+  "no_public_upload": true,
+  "code_revision_before_layout_change": "28c84e87909123164fdc1ef8fca2eb72db9d8237",
+  "organized_source_revision": "0aac4792d956da2b57d9ddc5859e651bd506329e",
+  "verified_remote_revision": "0aac4792d956da2b57d9ddc5859e651bd506329e"
+}

@@ -1,0 +1,1787 @@
+[
+  {
+    "file": "scripts/polygonize_zhang_selected.py",
+    "source": "/mnt/HDD1/documents_lmassimino/scripts/codex/data_mining/zhang_segmentation_benchmark/polygonize_zhang_selected.py",
+    "sha256": "eadfe5c77ff11f0e1e14d3180e1ac6a3daa83c121056a0fd125a118933a327d6",
+    "bytes": 3860,
+    "kind": "analysis_scripts"
+  },
+  {
+    "file": "scripts/rctd_native_weight_qa.R",
+    "source": "/mnt/HDD1/documents_lmassimino/scripts/codex/data_mining/zhang_segmentation_benchmark/rctd_native_weight_qa.R",
+    "sha256": "568c0086b98450e1f1d04b760ae73e350ca7a2074bb99a65f695d036bd987a18",
+    "bytes": 1654,
+    "kind": "analysis_scripts"
+  },
+  {
+    "file": "config/zhang_all_masks_major_full_config.json",
+    "source": "/mnt/HDD1/documents_lmassimino/scripts/codex/data_mining/zhang_segmentation_benchmark/zhang_all_masks_major_full_config.json",
+    "sha256": "3339c53410b185cefab922adeb073fd1de1229948c8423bb0532579fcea0620e",
+    "bytes": 1110,
+    "kind": "analysis_config"
+  },
+  {
+    "file": "scripts/zhang_all_masks_major_full_counts.R",
+    "source": "/mnt/HDD1/documents_lmassimino/scripts/codex/data_mining/zhang_segmentation_benchmark/zhang_all_masks_major_full_counts.R",
+    "sha256": "72bc864226977636d48fabc5fe5e632d9e2efe2492974d5fb446e96b5f003cf9",
+    "bytes": 5057,
+    "kind": "analysis_scripts"
+  },
+  {
+    "file": "scripts/zhang_all_masks_major_full_fit.R",
+    "source": "/mnt/HDD1/documents_lmassimino/scripts/codex/data_mining/zhang_segmentation_benchmark/zhang_all_masks_major_full_fit.R",
+    "sha256": "e8d3ce3af288e32ffd966db45655c2fa5ed2039d5fc2d6d6a91b7f3c4372b622",
+    "bytes": 3989,
+    "kind": "analysis_scripts"
+  },
+  {
+    "file": "scripts/zhang_all_masks_major_full_prepare.py",
+    "source": "/mnt/HDD1/documents_lmassimino/scripts/codex/data_mining/zhang_segmentation_benchmark/zhang_all_masks_major_full_prepare.py",
+    "sha256": "207b4fb4b66be0b6c4ac61a46b79f7706943177cd78e6cae1f5ca264a90f50b4",
+    "bytes": 3600,
+    "kind": "analysis_scripts"
+  },
+  {
+    "file": "protocols/zhang_all_masks_major_full_protocol.md",
+    "source": "/mnt/HDD1/documents_lmassimino/scripts/codex/data_mining/zhang_segmentation_benchmark/zhang_all_masks_major_full_protocol.md",
+    "sha256": "7cacf3d2ba459352ed1927f43754c175e2103507805b339b7311bab0e3762009",
+    "bytes": 2556,
+    "kind": "analysis_protocols"
+  },
+  {
+    "file": "scripts/zhang_all_masks_major_full_run.py",
+    "source": "/mnt/HDD1/documents_lmassimino/scripts/codex/data_mining/zhang_segmentation_benchmark/zhang_all_masks_major_full_run.py",
+    "sha256": "08d9d854d46305be7333c9f4444d8e9e3d275a47d90dbdbc9d86f919501d195d",
+    "bytes": 5421,
+    "kind": "analysis_scripts"
+  },
+  {
+    "file": "scripts/zhang_benchmark_classical.py",
+    "source": "/mnt/HDD1/documents_lmassimino/scripts/codex/data_mining/zhang_segmentation_benchmark/zhang_benchmark_classical.py",
+    "sha256": "106e2723a7d8a371b1f6eb41f1ad8788f7a7bf121557bcdcb4b3c6c14b1c74dc",
+    "bytes": 2144,
+    "kind": "analysis_scripts"
+  },
+  {
+    "file": "scripts/zhang_benchmark_common.py",
+    "source": "/mnt/HDD1/documents_lmassimino/scripts/codex/data_mining/zhang_segmentation_benchmark/zhang_benchmark_common.py",
+    "sha256": "e3e06c4a99a90352e923757171fb898f31572b3daa05b3e6b34b9388aeee5b3a",
+    "bytes": 6328,
+    "kind": "analysis_scripts"
+  },
+  {
+    "file": "config/zhang_benchmark_config.json",
+    "source": "/mnt/HDD1/documents_lmassimino/scripts/codex/data_mining/zhang_segmentation_benchmark/zhang_benchmark_config.json",
+    "sha256": "a43b52616f539dcfdae64034509196132a340a3ad4d07d5970b0843e903468e8",
+    "bytes": 4583,
+    "kind": "analysis_config"
+  },
+  {
+    "file": "scripts/zhang_benchmark_export.R",
+    "source": "/mnt/HDD1/documents_lmassimino/scripts/codex/data_mining/zhang_segmentation_benchmark/zhang_benchmark_export.R",
+    "sha256": "765dbc27937c74b40934abeb060aac0805041b37c6509f4d378507d6f6737833",
+    "bytes": 2488,
+    "kind": "analysis_scripts"
+  },
+  {
+    "file": "scripts/zhang_benchmark_learned.py",
+    "source": "/mnt/HDD1/documents_lmassimino/scripts/codex/data_mining/zhang_segmentation_benchmark/zhang_benchmark_learned.py",
+    "sha256": "a19e42952e2ff07e01fbc46dffd02db28dd39f0efce7250eaf2bc301a9931ec2",
+    "bytes": 5480,
+    "kind": "analysis_scripts"
+  },
+  {
+    "file": "protocols/zhang_benchmark_protocol.md",
+    "source": "/mnt/HDD1/documents_lmassimino/scripts/codex/data_mining/zhang_segmentation_benchmark/zhang_benchmark_protocol.md",
+    "sha256": "15e131482d4c18b0f4f4430c3ed1e4f9fbd99e8e25b6225710c346e17de990f0",
+    "bytes": 2317,
+    "kind": "analysis_protocols"
+  },
+  {
+    "file": "scripts/zhang_benchmark_report.py",
+    "source": "/mnt/HDD1/documents_lmassimino/scripts/codex/data_mining/zhang_segmentation_benchmark/zhang_benchmark_report.py",
+    "sha256": "505b4e4221c42187df889979d3881d1269d9cfdcbe1533e6b2b18e614df12dfa",
+    "bytes": 7730,
+    "kind": "analysis_scripts"
+  },
+  {
+    "file": "scripts/zhang_benchmark_validate.py",
+    "source": "/mnt/HDD1/documents_lmassimino/scripts/codex/data_mining/zhang_segmentation_benchmark/zhang_benchmark_validate.py",
+    "sha256": "cbd4acc4edf9cf2a21df9586deea7bde916ff149ecf91de86cda08b40a436770",
+    "bytes": 3032,
+    "kind": "analysis_scripts"
+  },
+  {
+    "file": "scripts/zhang_figure1_prepare.py",
+    "source": "/mnt/HDD1/documents_lmassimino/scripts/codex/data_mining/zhang_segmentation_benchmark/zhang_figure1_prepare.py",
+    "sha256": "c6668eb7602930b8eef09a9eea0eb6f73fa7f4a984c08fec57534cc5fae9d6b3",
+    "bytes": 1785,
+    "kind": "analysis_scripts"
+  },
+  {
+    "file": "scripts/zhang_figure1_render.R",
+    "source": "/mnt/HDD1/documents_lmassimino/scripts/codex/data_mining/zhang_segmentation_benchmark/zhang_figure1_render.R",
+    "sha256": "efd0750323a7724bb52e0cdec236f385322361a11205d13585f90483e88164ba",
+    "bytes": 9242,
+    "kind": "analysis_scripts"
+  },
+  {
+    "file": "scripts/zhang_figure3_agreement.py",
+    "source": "/mnt/HDD1/documents_lmassimino/scripts/codex/data_mining/zhang_segmentation_benchmark/zhang_figure3_agreement.py",
+    "sha256": "14d43156003553d7173fe9860de01fb991a8c079f8503eac4a5ac3507d649d81",
+    "bytes": 1493,
+    "kind": "analysis_scripts"
+  },
+  {
+    "file": "scripts/zhang_figure3_extract.R",
+    "source": "/mnt/HDD1/documents_lmassimino/scripts/codex/data_mining/zhang_segmentation_benchmark/zhang_figure3_extract.R",
+    "sha256": "c9fbce244ea3de1f9760a19b57630f36aaf95c53b142bced04383dcba59ddfae",
+    "bytes": 2409,
+    "kind": "analysis_scripts"
+  },
+  {
+    "file": "scripts/zhang_figure3_rank_summary.R",
+    "source": "/mnt/HDD1/documents_lmassimino/scripts/codex/data_mining/zhang_segmentation_benchmark/zhang_figure3_rank_summary.R",
+    "sha256": "2d4cd23c4bd64ed1b9f744abacb9adb7914da81944d37ca3130b68cceabb68b3",
+    "bytes": 2202,
+    "kind": "analysis_scripts"
+  },
+  {
+    "file": "scripts/zhang_figure3_render.R",
+    "source": "/mnt/HDD1/documents_lmassimino/scripts/codex/data_mining/zhang_segmentation_benchmark/zhang_figure3_render.R",
+    "sha256": "155a592d92b7cc0a0701dc7b62c6d899c3f5bfab453fc7db95de68dcfdce4a32",
+    "bytes": 12625,
+    "kind": "analysis_scripts"
+  },
+  {
+    "file": "scripts/zhang_major_call_supplement.R",
+    "source": "/mnt/HDD1/documents_lmassimino/scripts/codex/data_mining/zhang_segmentation_benchmark/zhang_major_call_supplement.R",
+    "sha256": "1a13ce551d94607b49aaae3834b91b18f5e8e8a1aefa4046d7c032caa7aab504",
+    "bytes": 3040,
+    "kind": "analysis_scripts"
+  },
+  {
+    "file": "scripts/zhang_major_call_supplement.py",
+    "source": "/mnt/HDD1/documents_lmassimino/scripts/codex/data_mining/zhang_segmentation_benchmark/zhang_major_call_supplement.py",
+    "sha256": "daf03fc805e7617292493f826ac3dc4d458bedda1936ec566d0eb1998c918aca",
+    "bytes": 7581,
+    "kind": "analysis_scripts"
+  },
+  {
+    "file": "results/segmentations/Cellpose3/CD1.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Cellpose3/CD1.bin_labels.npy",
+    "sha256": "c1fc51a3b368e278d2ac0f06da3f7cc960c52d8d5d02d088eab2781010aeeae7",
+    "bytes": 2080532,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Cellpose3/CD1.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Cellpose3/CD1.labels.tiff",
+    "sha256": "f22829b3fab03074524d93021e2abd37a827198f9e70ccb49f829fc34823839f",
+    "bytes": 268155,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Cellpose3/CD1.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Cellpose3/CD1.metrics.json",
+    "sha256": "02cc81f7eea3eee873d359cb09e48db05768a8c49f219579f3ba78e787701ed5",
+    "bytes": 3083,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Cellpose3/CD2.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Cellpose3/CD2.bin_labels.npy",
+    "sha256": "26f04a4c8bb94d37a8a385ee093ecde7cf0dfb09f041dd1f4987b00a09fd8688",
+    "bytes": 1875492,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Cellpose3/CD2.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Cellpose3/CD2.labels.tiff",
+    "sha256": "780583216613b0140cf14f5e39ad9f6db3062ba3b5230210b5f9fa4c4c094c6e",
+    "bytes": 232782,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Cellpose3/CD2.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Cellpose3/CD2.metrics.json",
+    "sha256": "5e68c143e6d1fd785a6c6d3673155fc18b440b7b999a1ffcddf8d82814f0efae",
+    "bytes": 3086,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/CellposeDINO/CD1.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/CellposeDINO/CD1.bin_labels.npy",
+    "sha256": "a7e403d4d7b64b3c05a7510b2f82db3818d56e58f7c4256f23622300cc1a969c",
+    "bytes": 2080532,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/CellposeDINO/CD1.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/CellposeDINO/CD1.labels.tiff",
+    "sha256": "965b3f415aa1adb2b6f6e0b3caa5f02967c553cdda861d12f931712e03173dd3",
+    "bytes": 1077963,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/CellposeDINO/CD1.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/CellposeDINO/CD1.metrics.json",
+    "sha256": "8cbf07f273d56dcc1698903c93515073461ce1c18981a039ade153632d035995",
+    "bytes": 2970,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/CellposeDINO/CD2.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/CellposeDINO/CD2.bin_labels.npy",
+    "sha256": "073331ac986683d0d2a7be63ae28618c600773799ddfd112cf966525407cae6b",
+    "bytes": 1875492,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/CellposeDINO/CD2.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/CellposeDINO/CD2.labels.tiff",
+    "sha256": "85ea99c34f6cfd0101328cbfd438df5d4ec355b388d4ce873184f593ed742313",
+    "bytes": 400817,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/CellposeDINO/CD2.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/CellposeDINO/CD2.metrics.json",
+    "sha256": "511cb741f496f12a2e39d126857c7c0947a20691115345f1c7cbc979df10381c",
+    "bytes": 2974,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/CellposeDINOsmall/CD1.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/CellposeDINOsmall/CD1.bin_labels.npy",
+    "sha256": "3c820109a6e47d15823fef0d7ab61f9a8c2fa819f169ce4fc0cbf09b2bcb2411",
+    "bytes": 2080532,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/CellposeDINOsmall/CD1.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/CellposeDINOsmall/CD1.labels.tiff",
+    "sha256": "55e2104484123fd227679852ac88294c1910541945acbace180bac3f5fc20a11",
+    "bytes": 1382531,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/CellposeDINOsmall/CD1.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/CellposeDINOsmall/CD1.metrics.json",
+    "sha256": "94979cddcff09157b96fe3abbb2d9f6602c6b328bb0cb6516aab2802d24af5c9",
+    "bytes": 2982,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/CellposeDINOsmall/CD2.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/CellposeDINOsmall/CD2.bin_labels.npy",
+    "sha256": "b60fd779845c7d9bbf0af5f564cf3a3cb46a44a09ed118abc1c953489b87a456",
+    "bytes": 1875492,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/CellposeDINOsmall/CD2.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/CellposeDINOsmall/CD2.labels.tiff",
+    "sha256": "b564324b910242d3544846d5eb419217a88da8a47fecfe4b6230c8e4d45f192f",
+    "bytes": 476614,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/CellposeDINOsmall/CD2.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/CellposeDINOsmall/CD2.metrics.json",
+    "sha256": "e7cfc92736fb2dbfc60686c1a0f77ed09b1c72f7ad9f546759ecb9296f849c64",
+    "bytes": 3010,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/CellposeSAM/CD1.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/CellposeSAM/CD1.bin_labels.npy",
+    "sha256": "04331f0fcce48db601b901415307b009a43a079d6e597d239d3741f6540610c2",
+    "bytes": 2080532,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/CellposeSAM/CD1.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/CellposeSAM/CD1.labels.tiff",
+    "sha256": "790973c56dec6fe469b4b9cb66e7a4de8e4ac961d4e471b8a715208f75f20c6c",
+    "bytes": 1112806,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/CellposeSAM/CD1.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/CellposeSAM/CD1.metrics.json",
+    "sha256": "a237261575f7fd635a2b306ba9ed2cb427134c2975ed106f0bfb83eedabc7c6f",
+    "bytes": 2941,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/CellposeSAM/CD2.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/CellposeSAM/CD2.bin_labels.npy",
+    "sha256": "3b2118ced989e82672b792767049d127f6e954a39a450b0dc41917873e0fbe6f",
+    "bytes": 1875492,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/CellposeSAM/CD2.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/CellposeSAM/CD2.labels.tiff",
+    "sha256": "cc3edf5aa1b3fd70d9d0da804381ef3de1d823f5e3f6ed44ef83e56972f9d999",
+    "bytes": 589393,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/CellposeSAM/CD2.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/CellposeSAM/CD2.metrics.json",
+    "sha256": "3965b9c56a95978631bca69058ed829071291859b199f5e84eb4bf325b6c29ce",
+    "bytes": 2954,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/CellposeSAMv2/CD1.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/CellposeSAMv2/CD1.bin_labels.npy",
+    "sha256": "90daeed574edbd4adb004884d0c3a0d34c3172a563be3c0da9daf76f7850ea95",
+    "bytes": 2080532,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/CellposeSAMv2/CD1.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/CellposeSAMv2/CD1.labels.tiff",
+    "sha256": "36da16ee172e6f847a504cfc8b48756ef0cb31190a7fc50b5fe3b5ec3cc7c60a",
+    "bytes": 933425,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/CellposeSAMv2/CD1.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/CellposeSAMv2/CD1.metrics.json",
+    "sha256": "17107828687c7d0e7678df0f34ee027a57e6b3c5380c92e212bc53f30b4be6ec",
+    "bytes": 2982,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/CellposeSAMv2/CD2.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/CellposeSAMv2/CD2.bin_labels.npy",
+    "sha256": "2bd5af15c40080e86043109ecb5205f1e52a38dbc97d9c75434cc8f00734cf96",
+    "bytes": 1875492,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/CellposeSAMv2/CD2.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/CellposeSAMv2/CD2.labels.tiff",
+    "sha256": "a121306306be8b54865a348a8f7eefe03066c148c4dbe61455d89b54d9703aea",
+    "bytes": 517909,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/CellposeSAMv2/CD2.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/CellposeSAMv2/CD2.metrics.json",
+    "sha256": "a3fdfb59b18b570e8df0f627f5bfbcfa97a0b6033bdc331fb1519cc3e095c2b5",
+    "bytes": 2986,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/InstanSeg_HE/CD1.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/InstanSeg_HE/CD1.bin_labels.npy",
+    "sha256": "d0e63166ed9decd1f9a410e1f62ec46e6995091bf73b0782b7f337c04955cc14",
+    "bytes": 2080532,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/InstanSeg_HE/CD1.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/InstanSeg_HE/CD1.labels.tiff",
+    "sha256": "87f35a6fe338bb4578a854aabd2de11c01f4b8ccbf438c6e407fe8a2d8a5b36b",
+    "bytes": 3615889,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/InstanSeg_HE/CD1.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/InstanSeg_HE/CD1.metrics.json",
+    "sha256": "54048602799009abcadaaebc2af3f232e7464a9693677373b76310b365cd4975",
+    "bytes": 3123,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/InstanSeg_HE/CD2.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/InstanSeg_HE/CD2.bin_labels.npy",
+    "sha256": "4dd8fe65ffcc99c40a85c2f35b97542a579ba8feb4c21b7e1937041b2a29ea16",
+    "bytes": 1875492,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/InstanSeg_HE/CD2.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/InstanSeg_HE/CD2.labels.tiff",
+    "sha256": "7aaf571b3fc34080238348d72a3d9279490d36db4860c598240f52b9b57ef9b9",
+    "bytes": 1825854,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/InstanSeg_HE/CD2.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/InstanSeg_HE/CD2.metrics.json",
+    "sha256": "e0dc2ef250f76a6c448e4b7a7bfa252761b6d203f504c430cd714f6a5644192c",
+    "bytes": 3101,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/InstanSeg_prior_fluor/CD1.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/InstanSeg_prior_fluor/CD1.bin_labels.npy",
+    "sha256": "100ccd08f3a5bf922cc5af9c2a8400083fddf05a21d0de72361c1d078c01b7d2",
+    "bytes": 2080532,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/InstanSeg_prior_fluor/CD1.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/InstanSeg_prior_fluor/CD1.labels.tiff",
+    "sha256": "9c647a08c3a07b1b60385f0d2f0e5ba2b5a61b631b8cc6cc6481276d37f8320a",
+    "bytes": 6582983,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/InstanSeg_prior_fluor/CD1.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/InstanSeg_prior_fluor/CD1.metrics.json",
+    "sha256": "f013fa3a7cbdfed41cfd3413500f8089d92068b9e7587f75fd88eec80eed482d",
+    "bytes": 3244,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/InstanSeg_prior_fluor/CD2.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/InstanSeg_prior_fluor/CD2.bin_labels.npy",
+    "sha256": "2bb0c63d762033926b5ca70ed0d3236fe289b45c1e4dd8fe5eb1e191758da2b4",
+    "bytes": 1875492,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/InstanSeg_prior_fluor/CD2.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/InstanSeg_prior_fluor/CD2.labels.tiff",
+    "sha256": "e5354f982605832c3c5c27f7d5300dbc7f9be5ee9f247ad525bed75b611c8b81",
+    "bytes": 3673221,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/InstanSeg_prior_fluor/CD2.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/InstanSeg_prior_fluor/CD2.metrics.json",
+    "sha256": "2688087055c98c1d47510ec555db86fe06b4bcd364600818795c9af81340f62a",
+    "bytes": 3238,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/OpenCV_HE/CD1.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/OpenCV_HE/CD1.bin_labels.npy",
+    "sha256": "35a9f3dde83d6a5cd7b0bd537bf6328ca83f7154d727452a7c2bfa907bcbe9cf",
+    "bytes": 2080532,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/OpenCV_HE/CD1.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/OpenCV_HE/CD1.labels.tiff",
+    "sha256": "1d898d868ef02c40d78198f4a8c3d596fd76e09d5bf006003b2061ce4dd0d40f",
+    "bytes": 979704,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/OpenCV_HE/CD1.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/OpenCV_HE/CD1.metrics.json",
+    "sha256": "b876206e1a25b3b5cfbbc80d6799cf2d07580caaaa952085b200958879735719",
+    "bytes": 2122,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/OpenCV_HE/CD2.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/OpenCV_HE/CD2.bin_labels.npy",
+    "sha256": "51f4652e0e1a2dbc371e9ba9886ac00a3b65ce51adbc68c63e15de18a09af0fd",
+    "bytes": 1875492,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/OpenCV_HE/CD2.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/OpenCV_HE/CD2.labels.tiff",
+    "sha256": "9030e49ca0cef7eefa30a83bfcd957a4daed9fd8bd5cd2f72d5812fa8d5a7b5a",
+    "bytes": 686943,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/OpenCV_HE/CD2.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/OpenCV_HE/CD2.metrics.json",
+    "sha256": "e754886fbaa1368432c8b04259ce07e33fb95a1dc417f4d1a9f385e875e6e989",
+    "bytes": 2130,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/PathoSAM_HE_AIS/CD1.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/PathoSAM_HE_AIS/CD1.bin_labels.npy",
+    "sha256": "f29747ae438b60cd893d4404f807fa61a1e764b3a58585eb3fda3d1383f5908a",
+    "bytes": 2080532,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/PathoSAM_HE_AIS/CD1.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/PathoSAM_HE_AIS/CD1.labels.tiff",
+    "sha256": "0200bf7f57891bd4cbf6145734763a11e882722106bd3775ea4ccde6a755ec0f",
+    "bytes": 348998,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/PathoSAM_HE_AIS/CD1.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/PathoSAM_HE_AIS/CD1.metrics.json",
+    "sha256": "5d2e7aecf54feabd237315cc4e79acc817f8660e8f3d845f26421c48348dcea7",
+    "bytes": 3162,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/PathoSAM_HE_AIS/CD2.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/PathoSAM_HE_AIS/CD2.bin_labels.npy",
+    "sha256": "c58a6c2df02f17b67564e34dc67f19b39a68a1348194be63c4e05798b4991088",
+    "bytes": 1875492,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/PathoSAM_HE_AIS/CD2.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/PathoSAM_HE_AIS/CD2.labels.tiff",
+    "sha256": "2d7fdcb876a40af5a93d3133f5b795e6fc48c2dc5f4d290568bddd6033f2799d",
+    "bytes": 367020,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/PathoSAM_HE_AIS/CD2.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/PathoSAM_HE_AIS/CD2.metrics.json",
+    "sha256": "26c99179eb406e917ed8dfbce8ea46afdb0e467125079592d79ade14d59a91b5",
+    "bytes": 3139,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_initial_s2p5_expand5/CD1.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_initial_s2p5_expand5/CD1.bin_labels.npy",
+    "sha256": "fd45ec7da05b3178d39c3312fdd64f87a40fdc16028f7d58d39cb71cd55f821b",
+    "bytes": 2080532,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_initial_s2p5_expand5/CD1.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_initial_s2p5_expand5/CD1.labels.tiff",
+    "sha256": "4b078c9e05d985c7f1e3977eab34a8b93911a93e0a78bd066ef9a67a5c2af8bd",
+    "bytes": 6229835,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_initial_s2p5_expand5/CD1.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_initial_s2p5_expand5/CD1.metrics.json",
+    "sha256": "f691cda6cbce7460e830cd27bd66242143e7962dc4e53a41e1c4200fdee1da09",
+    "bytes": 2132,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_initial_s2p5_expand5/CD2.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_initial_s2p5_expand5/CD2.bin_labels.npy",
+    "sha256": "c615d7c5788b4a31a152755c04ab191d89b977487327d895c19d46a778fa07f6",
+    "bytes": 1875492,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_initial_s2p5_expand5/CD2.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_initial_s2p5_expand5/CD2.labels.tiff",
+    "sha256": "91942dacc52df8bda79f55e843a47a0752353e79261ff8b76af98587b1ee228b",
+    "bytes": 3260691,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_initial_s2p5_expand5/CD2.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_initial_s2p5_expand5/CD2.metrics.json",
+    "sha256": "2e1cc5a2e886fbe5e1301d1b9f97f5713366146b956d5fc2c843cecacefca001",
+    "bytes": 2144,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_initial_s2p5_nuclei/CD1.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_initial_s2p5_nuclei/CD1.bin_labels.npy",
+    "sha256": "180fd49a3928ed84dc08a2b7d6360c5dae0b59c340ed567b4b9b85bee66c277a",
+    "bytes": 2080532,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_initial_s2p5_nuclei/CD1.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_initial_s2p5_nuclei/CD1.labels.tiff",
+    "sha256": "74284ac350c249792718d40012e985dad56fff8b16cfd5b305324ea663300c43",
+    "bytes": 4739501,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_initial_s2p5_nuclei/CD1.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_initial_s2p5_nuclei/CD1.metrics.json",
+    "sha256": "29827c7269874ce517006dcecdb5b60dcc5ded2ea1a114dbabc6d5fa9705adc6",
+    "bytes": 2129,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_initial_s2p5_nuclei/CD2.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_initial_s2p5_nuclei/CD2.bin_labels.npy",
+    "sha256": "9318b7c5e42a00c4b6f8606e47eda53757ad9e24f1c7700550b025eabb24eff5",
+    "bytes": 1875492,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_initial_s2p5_nuclei/CD2.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_initial_s2p5_nuclei/CD2.labels.tiff",
+    "sha256": "f168eb77cb3e7b5c3aeea461594012ee7116b47df080f2efcd9e1ec0813f8c03",
+    "bytes": 2467412,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_initial_s2p5_nuclei/CD2.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_initial_s2p5_nuclei/CD2.metrics.json",
+    "sha256": "23e7b95646f0ec8843381f93d5a111808758395ba5f3a715c3ce8814347b3515",
+    "bytes": 2128,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_initial_s3p5_expand5/CD1.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_initial_s3p5_expand5/CD1.bin_labels.npy",
+    "sha256": "e6fee719988c7295d9cc420e9c27f521e71d4e47aae0bd9af85e544773060638",
+    "bytes": 2080532,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_initial_s3p5_expand5/CD1.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_initial_s3p5_expand5/CD1.labels.tiff",
+    "sha256": "26a346ed398b5d91ac1469829ac62a3586f8aa9df27b29467184499da0ac991f",
+    "bytes": 5532763,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_initial_s3p5_expand5/CD1.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_initial_s3p5_expand5/CD1.metrics.json",
+    "sha256": "36fcd3e67935d60b8b752063c4a8e590c3fc1801fc1f042e1cd455fa42bfeb70",
+    "bytes": 2148,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_initial_s3p5_expand5/CD2.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_initial_s3p5_expand5/CD2.bin_labels.npy",
+    "sha256": "f6566c71dbd32e2cdb6a5f0e6f37c6d0675219454c5ed95a295cca3a3ba0af1b",
+    "bytes": 1875492,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_initial_s3p5_expand5/CD2.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_initial_s3p5_expand5/CD2.labels.tiff",
+    "sha256": "b31ada683206f4f46e1da441848005c9edf1307d4bdb63c190e73287a22414ba",
+    "bytes": 2852342,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_initial_s3p5_expand5/CD2.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_initial_s3p5_expand5/CD2.metrics.json",
+    "sha256": "18d938ddabfba9cb4f78d379db1352d5472bf6185744c5a4ed2176fffd4cec84",
+    "bytes": 2144,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_initial_s3p5_nuclei/CD1.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_initial_s3p5_nuclei/CD1.bin_labels.npy",
+    "sha256": "edd11fcb4b8ede2373fd48ac45f94f515713ce48da15ba337c1455ed5c444c58",
+    "bytes": 2080532,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_initial_s3p5_nuclei/CD1.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_initial_s3p5_nuclei/CD1.labels.tiff",
+    "sha256": "fac39e2ed95b0377bdba0987faa7fe1be0c87a476cec9352d46270ab0314e20e",
+    "bytes": 4345249,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_initial_s3p5_nuclei/CD1.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_initial_s3p5_nuclei/CD1.metrics.json",
+    "sha256": "f3c4c29f81cee80357f72ccbfdc4bf3beca17339845c452cfbc3031e1433e4ae",
+    "bytes": 2123,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_initial_s3p5_nuclei/CD2.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_initial_s3p5_nuclei/CD2.bin_labels.npy",
+    "sha256": "d8026eda87ba3fab2d2265ead6be48accfc25576a4a0b096b2cc518f68a28ec7",
+    "bytes": 1875492,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_initial_s3p5_nuclei/CD2.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_initial_s3p5_nuclei/CD2.labels.tiff",
+    "sha256": "fa59441bf0a7e33d7b6eeea22562c3af72c364cba2f87568849291a548af9721",
+    "bytes": 2248382,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_initial_s3p5_nuclei/CD2.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_initial_s3p5_nuclei/CD2.metrics.json",
+    "sha256": "952022caae7a7786d62c7e029f406503e8448c3c7bc8242e45f354901e811812",
+    "bytes": 2107,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_revised_s2p5_expand5/CD1.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_revised_s2p5_expand5/CD1.bin_labels.npy",
+    "sha256": "3ce00779c83d83879424dc71bf9c9fca2e4f6fe6d278bc91a6b68f60e71b02c3",
+    "bytes": 2080532,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_revised_s2p5_expand5/CD1.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_revised_s2p5_expand5/CD1.labels.tiff",
+    "sha256": "5a6337a86e75782dd13a87a36ee75e0c1664f438d3ca433dd787d7ce617a36c7",
+    "bytes": 6443573,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_revised_s2p5_expand5/CD1.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_revised_s2p5_expand5/CD1.metrics.json",
+    "sha256": "e3e184f60aff069e6eb480710a7b0518517b4bcc39a51453632a6011b578cf41",
+    "bytes": 2146,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_revised_s2p5_expand5/CD2.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_revised_s2p5_expand5/CD2.bin_labels.npy",
+    "sha256": "09a1180ad2a733a3075779ec7cc4dbfd40d432c5419da6866ea40c331701a89f",
+    "bytes": 1875492,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_revised_s2p5_expand5/CD2.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_revised_s2p5_expand5/CD2.labels.tiff",
+    "sha256": "8782bbdcb3f3c6ced3800baa93833153132e39d8c9fe0db7757604eaa201979d",
+    "bytes": 3405338,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_revised_s2p5_expand5/CD2.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_revised_s2p5_expand5/CD2.metrics.json",
+    "sha256": "65a4fce45c83a12e041471541906ef58c67d22b2d94fd556c43392ac19163d69",
+    "bytes": 2143,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_revised_s2p5_nuclei/CD1.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_revised_s2p5_nuclei/CD1.bin_labels.npy",
+    "sha256": "22815da51961d7bca9ee4adfa9f2b73f59cdc6799579a3f77af21a4ce691c92a",
+    "bytes": 2080532,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_revised_s2p5_nuclei/CD1.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_revised_s2p5_nuclei/CD1.labels.tiff",
+    "sha256": "69dfe9be0b70084d721466407af8e2b0b6d870d5d3545012aa62a7b6fa887e64",
+    "bytes": 4953846,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_revised_s2p5_nuclei/CD1.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_revised_s2p5_nuclei/CD1.metrics.json",
+    "sha256": "a78986790ff0a38f4bbf37a9f4736bb7e2248dbb6027cb1c998db51e426db4a5",
+    "bytes": 2126,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_revised_s2p5_nuclei/CD2.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_revised_s2p5_nuclei/CD2.bin_labels.npy",
+    "sha256": "0a5a7cc38074375d60426cef472796b0372550e7de9c48ae59445974a38ac0cf",
+    "bytes": 1875492,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_revised_s2p5_nuclei/CD2.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_revised_s2p5_nuclei/CD2.labels.tiff",
+    "sha256": "2242283684b73a2f73e408409b0401c6d871ee8c8301432d9d82fedc4e511db6",
+    "bytes": 2604838,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_revised_s2p5_nuclei/CD2.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_revised_s2p5_nuclei/CD2.metrics.json",
+    "sha256": "02f5260d158c88ecf77c03930ce497bbb790ec39442b6d586ab438b9df172dfa",
+    "bytes": 2124,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_revised_s3p5_expand5/CD1.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_revised_s3p5_expand5/CD1.bin_labels.npy",
+    "sha256": "9580e5aa010003e33069f2f0acf616e7049bcfb50f75d86dfa18f410b7e0a084",
+    "bytes": 2080532,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_revised_s3p5_expand5/CD1.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_revised_s3p5_expand5/CD1.labels.tiff",
+    "sha256": "dbc4ac154097f61ead7c53db8fa8ebe55bec2dc7dc290a0c4b5e3bff968294fb",
+    "bytes": 5716657,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_revised_s3p5_expand5/CD1.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_revised_s3p5_expand5/CD1.metrics.json",
+    "sha256": "af843234cda10801701c8796709bffadb35ef8c8cc3eb03faf8bd614b8728bec",
+    "bytes": 2153,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_revised_s3p5_expand5/CD2.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_revised_s3p5_expand5/CD2.bin_labels.npy",
+    "sha256": "c3cf8c83b58084560b90351a274cb7f71799b160ef2981907ac1d1fdcd586154",
+    "bytes": 1875492,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_revised_s3p5_expand5/CD2.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_revised_s3p5_expand5/CD2.labels.tiff",
+    "sha256": "bf9e48e1575508c68d967ffa81d0aab28e3a3dde42dc20f644bb25485eb1555f",
+    "bytes": 2973861,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_revised_s3p5_expand5/CD2.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_revised_s3p5_expand5/CD2.metrics.json",
+    "sha256": "e17337ff946d768350ee98d86d51c6669c42ae2e652f922954e3478f09958e6a",
+    "bytes": 2143,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_revised_s3p5_nuclei/CD1.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_revised_s3p5_nuclei/CD1.bin_labels.npy",
+    "sha256": "aee8d4897c4b5de5053ad29c8d8aa0bf8cab8252e9678f3caf73d45b554e543d",
+    "bytes": 2080532,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_revised_s3p5_nuclei/CD1.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_revised_s3p5_nuclei/CD1.labels.tiff",
+    "sha256": "71bf9109974429c9b74052db8c27a26b6efb97e8fcdd4751d08e26a06b1d7d62",
+    "bytes": 4538662,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_revised_s3p5_nuclei/CD1.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_revised_s3p5_nuclei/CD1.metrics.json",
+    "sha256": "9dd397b29e49ddbe92d2bbc3013629748958b829a772ea7359ed1cde319c6679",
+    "bytes": 2121,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_revised_s3p5_nuclei/CD2.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_revised_s3p5_nuclei/CD2.bin_labels.npy",
+    "sha256": "c92fcc108f66aec8a807078fcf8163631bad5d3a854f47c2b12aecb3e4529d6c",
+    "bytes": 1875492,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_revised_s3p5_nuclei/CD2.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_revised_s3p5_nuclei/CD2.labels.tiff",
+    "sha256": "3d0bcd0ce7f0c03d624311d34386dcfd11e66adfa90ff2862e81f1c3d47a5b4c",
+    "bytes": 2370784,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/Zhang_revised_s3p5_nuclei/CD2.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/Zhang_revised_s3p5_nuclei/CD2.metrics.json",
+    "sha256": "e3f04efcbf7ca9b3eec70a4311fcc09b922d63df10abc24d02b7fbfd557d6860",
+    "bytes": 2127,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/microSAM_LM_AIS/CD1.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/microSAM_LM_AIS/CD1.bin_labels.npy",
+    "sha256": "d91c4ee29910c689cf6e7259f69810cc4de842817bc6e00484ef0e48b62f382a",
+    "bytes": 2080532,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/microSAM_LM_AIS/CD1.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/microSAM_LM_AIS/CD1.labels.tiff",
+    "sha256": "5aad9c568b211749a4e03cb908496adbb0474f4ecb19dedaeb4ffbc7a83bc508",
+    "bytes": 700357,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/microSAM_LM_AIS/CD1.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/microSAM_LM_AIS/CD1.metrics.json",
+    "sha256": "58bf3b986244ba798e252a428d0d4b1467c40215501d5346ad968f03fa4d4810",
+    "bytes": 3125,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/microSAM_LM_AIS/CD2.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/microSAM_LM_AIS/CD2.bin_labels.npy",
+    "sha256": "d73f13177cca84ea6a9abe861e3592ec8dad4e613df47cf3624ceb3b2fe05ff5",
+    "bytes": 1875492,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/microSAM_LM_AIS/CD2.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/microSAM_LM_AIS/CD2.labels.tiff",
+    "sha256": "3f10257c3b334731875d65cab5dd8f4565477438e278b60f1a868fa3422a278b",
+    "bytes": 789495,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/microSAM_LM_AIS/CD2.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/microSAM_LM_AIS/CD2.metrics.json",
+    "sha256": "5593e6300c2bac141839eb78fe779a9b8474ad10280aa58ffbb1a56fe1ba78b5",
+    "bytes": 3145,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/microSAM_LM_AMG/CD1.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/microSAM_LM_AMG/CD1.bin_labels.npy",
+    "sha256": "4c5033f499e7f119876ea4131e0dd34fe8c750008cda3d5eb3525ce4fcb97de5",
+    "bytes": 2080532,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/microSAM_LM_AMG/CD1.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/microSAM_LM_AMG/CD1.labels.tiff",
+    "sha256": "ffbf8504bfe9afe94d085e1cc33c9156dce7173dce575ffa3a77b4820309af0e",
+    "bytes": 125809,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/microSAM_LM_AMG/CD1.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/microSAM_LM_AMG/CD1.metrics.json",
+    "sha256": "532c92f28016d16654c0a7c55c53a4f4257a782243aebbac38520bca44aca978",
+    "bytes": 3011,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/microSAM_LM_AMG/CD2.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/microSAM_LM_AMG/CD2.bin_labels.npy",
+    "sha256": "310a611b9f51be39b3f8470fa64f3eeda6ac542384b704834dc4ae890e65405a",
+    "bytes": 1875492,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/microSAM_LM_AMG/CD2.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/microSAM_LM_AMG/CD2.labels.tiff",
+    "sha256": "a217c2e37b1cdfb74c9d889d4eda5bdeecbeacf5ae5da12f3e800c213aea85d7",
+    "bytes": 135256,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/microSAM_LM_AMG/CD2.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/microSAM_LM_AMG/CD2.metrics.json",
+    "sha256": "7ff65094b5d89925371b9e909dac1143be9b57c8c4a444ed19c9fdfb3a26e13c",
+    "bytes": 3012,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/skimage_HE/CD1.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/skimage_HE/CD1.bin_labels.npy",
+    "sha256": "2fad2563d45fac82483258222c3ba65fd31b9846e71045d4117d33fa6421583b",
+    "bytes": 2080532,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/skimage_HE/CD1.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/skimage_HE/CD1.labels.tiff",
+    "sha256": "7ee354bc1d6098ea6018a453cd3f3dcca02d59c5be5fa215601019d42a7aa087",
+    "bytes": 2485126,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/skimage_HE/CD1.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/skimage_HE/CD1.metrics.json",
+    "sha256": "0f1d17e93c5b563b9e1ffbc78c95ea697c4cae8ae794a41b385aa761de267863",
+    "bytes": 2141,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/skimage_HE/CD2.bin_labels.npy",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/skimage_HE/CD2.bin_labels.npy",
+    "sha256": "2ff7be24f9b3a910c016c00d30a9253ef3284044331c1d37c0e2199639c290d1",
+    "bytes": 1875492,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/skimage_HE/CD2.labels.tiff",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/skimage_HE/CD2.labels.tiff",
+    "sha256": "fd16a3895f97eea73557f81412b016d03f3e961e1a386f08ade5de728d34ff9b",
+    "bytes": 1412485,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/segmentations/skimage_HE/CD2.metrics.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/segmentations/skimage_HE/CD2.metrics.json",
+    "sha256": "593ab7a7478826ef2c5f3f67e69e7a3d4d33d319e964f1c4b7a5a7ae797882a0",
+    "bytes": 2131,
+    "kind": "segmentation"
+  },
+  {
+    "file": "results/rctd/Cellpose3__CD1/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Cellpose3__CD1/native_full_major.rds",
+    "sha256": "24438acaa329ed9545d3cc27cf339045cfdba6224dbfc549e561ae8399d74e85",
+    "bytes": 21857286,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Cellpose3__CD1/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Cellpose3__CD1/qa.json",
+    "sha256": "1ab29ec5afc4fdac33f87903e170eb62ad9cafecbf0bfa671edc64ee4a679e57",
+    "bytes": 1028,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Cellpose3__CD2/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Cellpose3__CD2/native_full_major.rds",
+    "sha256": "e295cf781b6302b2e4fd6b5495aef754a85e5b178daafa8ec14c1c66de44be41",
+    "bytes": 21646099,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Cellpose3__CD2/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Cellpose3__CD2/qa.json",
+    "sha256": "7179c4ed6d7de16f4bbdb2830d28e5671c2fc4785a08536d682228768a3197cd",
+    "bytes": 1034,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/CellposeDINO__CD1/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/CellposeDINO__CD1/native_full_major.rds",
+    "sha256": "f93f3258d76b973f9ab15b5b39db4b5b32059b141499e6c43d160bee5f377f6d",
+    "bytes": 86411079,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/CellposeDINO__CD1/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/CellposeDINO__CD1/qa.json",
+    "sha256": "d7fe7552f5a73522e89c6cfeaffd642afcb3d7a9b28f26ee62e7d4697375c1a4",
+    "bytes": 1050,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/CellposeDINO__CD2/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/CellposeDINO__CD2/native_full_major.rds",
+    "sha256": "c6c8ade88b57ed7a3f0070086b4b7c366821a466f6f5bed93b02f30d1de029fe",
+    "bytes": 37893359,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/CellposeDINO__CD2/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/CellposeDINO__CD2/qa.json",
+    "sha256": "a63c3f6fa1f1ecaa5dba26b8240847e8f965503930002fcebf44b413205116cc",
+    "bytes": 1046,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/CellposeDINOsmall__CD1/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/CellposeDINOsmall__CD1/native_full_major.rds",
+    "sha256": "6e635ce5ad1210d5bcc7f36587b12f5e2e806002da57b88cf840636b92e54ebf",
+    "bytes": 128051726,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/CellposeDINOsmall__CD1/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/CellposeDINOsmall__CD1/qa.json",
+    "sha256": "6e7d6cf1579cd2c62791fc0c9b147d98b8855bc3282be90511734a33deca10ea",
+    "bytes": 1066,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/CellposeDINOsmall__CD2/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/CellposeDINOsmall__CD2/native_full_major.rds",
+    "sha256": "16f73b85632ee5b77832343c7325d6a38d6c911874f7d1cb693a225bff4de30e",
+    "bytes": 51788920,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/CellposeDINOsmall__CD2/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/CellposeDINOsmall__CD2/qa.json",
+    "sha256": "21698bebeb6174d93f242efc81c461befaab3340b992cbbf3b707acd300230c6",
+    "bytes": 1061,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/CellposeSAM__CD1/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/CellposeSAM__CD1/native_full_major.rds",
+    "sha256": "e9346262447fa74a4132a4736bfaea7b28be56b8b19508d3287cd4e4356c9bce",
+    "bytes": 76940133,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/CellposeSAM__CD1/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/CellposeSAM__CD1/qa.json",
+    "sha256": "b4114ebb61bed29b56640dde61d0bcc2fba3fc97282b7a2c985b04e328beeb12",
+    "bytes": 1049,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/CellposeSAM__CD2/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/CellposeSAM__CD2/native_full_major.rds",
+    "sha256": "c3961afa385ea2efb3d4fc658b885c4966a0254aa014c59c985781939fcf80a1",
+    "bytes": 63781220,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/CellposeSAM__CD2/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/CellposeSAM__CD2/qa.json",
+    "sha256": "4bca5ed76345c327dcb6605fb897ed7f75feaf7e456123fe7c70fdac84f041b0",
+    "bytes": 1044,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/CellposeSAMv2__CD1/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/CellposeSAMv2__CD1/native_full_major.rds",
+    "sha256": "0bec4d364cc8e576667f5316f4b08f5e1a9a3f9a7fcd26c7b8b9df84b1bcf547",
+    "bytes": 62854752,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/CellposeSAMv2__CD1/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/CellposeSAMv2__CD1/qa.json",
+    "sha256": "47ddf7a1ac33e6645239cc0ceb65dd42f0d86efbca20910433e324c15866bb40",
+    "bytes": 1055,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/CellposeSAMv2__CD2/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/CellposeSAMv2__CD2/native_full_major.rds",
+    "sha256": "9036c93f34b84bbb70d72d88a1b455f8b6f49a84ad099695bf69e9135a3c62d7",
+    "bytes": 56147199,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/CellposeSAMv2__CD2/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/CellposeSAMv2__CD2/qa.json",
+    "sha256": "3a7beae0806b6ff99d7bbab2dca5769e61a9d85ea9c665bcba2d9e0f2b034b3b",
+    "bytes": 1050,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/InstanSeg_HE__CD1/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/InstanSeg_HE__CD1/native_full_major.rds",
+    "sha256": "d7c6670a2e6c0ede0e641f0a600e23d5952960a519b19d7635748cc759db1ef0",
+    "bytes": 262633383,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/InstanSeg_HE__CD1/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/InstanSeg_HE__CD1/qa.json",
+    "sha256": "f998697492419e82f489d7050d69733500789852cd9c8b711ef6bfab0767f805",
+    "bytes": 1057,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/InstanSeg_HE__CD2/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/InstanSeg_HE__CD2/native_full_major.rds",
+    "sha256": "233f1f09c4d5eca5f76efecb41ad0d68cbea094fe7198f393e59a3f2d769bd8b",
+    "bytes": 163974635,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/InstanSeg_HE__CD2/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/InstanSeg_HE__CD2/qa.json",
+    "sha256": "550a90bdc07b6ad17ca8f41d794c8d785d91ac0b4866af5e498f154f2552e430",
+    "bytes": 1042,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/InstanSeg_prior_fluor__CD1/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/InstanSeg_prior_fluor__CD1/native_full_major.rds",
+    "sha256": "f41f9401a5e37182440c477e60c2c3d4149d033c6a5c5f03ee3247a8bb6a24be",
+    "bytes": 712528932,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/InstanSeg_prior_fluor__CD1/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/InstanSeg_prior_fluor__CD1/qa.json",
+    "sha256": "1572dff931a8cd7f7df55e66d8240f9d0965337ee5ddb840183f589bdb00e4c5",
+    "bytes": 1086,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/InstanSeg_prior_fluor__CD2/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/InstanSeg_prior_fluor__CD2/native_full_major.rds",
+    "sha256": "f31c2299e9fe2aaa5fad2a46af25470338fe5e444760a3e05a3614f440471da4",
+    "bytes": 420598249,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/InstanSeg_prior_fluor__CD2/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/InstanSeg_prior_fluor__CD2/qa.json",
+    "sha256": "92c48395a8c64e50f21cdca2a7f8f3728fc4f82e522de002194179000c67d19b",
+    "bytes": 1082,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/OpenCV_HE__CD1/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/OpenCV_HE__CD1/native_full_major.rds",
+    "sha256": "fcba06943abfcd4e59cf241cbc8edbbb38acc74e6a3aeedf86f66d4d55ab4e6b",
+    "bytes": 67369699,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/OpenCV_HE__CD1/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/OpenCV_HE__CD1/qa.json",
+    "sha256": "81b7eaa5b480286924472f67c40e37cd87111add12c887a3d23d34dbbf4a4937",
+    "bytes": 1042,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/OpenCV_HE__CD2/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/OpenCV_HE__CD2/native_full_major.rds",
+    "sha256": "640087fd98011130276bab70e63bb670ce9719a30eade5fb833fa54c4d74adb5",
+    "bytes": 68295261,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/OpenCV_HE__CD2/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/OpenCV_HE__CD2/qa.json",
+    "sha256": "cad1d649d72034ef2cd8179b2ac4aa52760e09c342ef87725688c82d3c7630d0",
+    "bytes": 1039,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/PathoSAM_HE_AIS__CD1/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/PathoSAM_HE_AIS__CD1/native_full_major.rds",
+    "sha256": "e8515f5062910eaf46a542236ce098f5abb79e0cff1848b8fc2c5c277cacf3b9",
+    "bytes": 31687923,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/PathoSAM_HE_AIS__CD1/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/PathoSAM_HE_AIS__CD1/qa.json",
+    "sha256": "a61948621107b3376f06f34d3b8dbbeef3c918dc11b62ccdb29cc6c09d0c37d3",
+    "bytes": 1057,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/PathoSAM_HE_AIS__CD2/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/PathoSAM_HE_AIS__CD2/native_full_major.rds",
+    "sha256": "892ea21e8d55548f263706f18b0448ddcd116aa44319fceeedbc16277a8f09d5",
+    "bytes": 58681340,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/PathoSAM_HE_AIS__CD2/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/PathoSAM_HE_AIS__CD2/qa.json",
+    "sha256": "1a78166a1c3eff863ed22efaa1a96194532874e2f3ae2036b6c5ce77c904e172",
+    "bytes": 1053,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_initial_s2p5_expand5__CD1/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_initial_s2p5_expand5__CD1/native_full_major.rds",
+    "sha256": "a8da7101afdf92a61e248461a5662c96d63b1c843bcc49c14ec91bb88665a4c7",
+    "bytes": 915890710,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_initial_s2p5_expand5__CD1/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_initial_s2p5_expand5__CD1/qa.json",
+    "sha256": "14715a62d7dbae15fe859f714db6ead2f6f9913828122746c27f01f7add18f04",
+    "bytes": 1103,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_initial_s2p5_expand5__CD2/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_initial_s2p5_expand5__CD2/native_full_major.rds",
+    "sha256": "8d2e4036acd6ae4225c67f332d5e3803977cc5e36f953696573f1a2719afbee9",
+    "bytes": 614117035,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_initial_s2p5_expand5__CD2/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_initial_s2p5_expand5__CD2/qa.json",
+    "sha256": "655d92deedc4a35f2206bb73e1e529520042524e241e476ae220d51e4fb4c4aa",
+    "bytes": 1095,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_initial_s2p5_nuclei__CD1/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_initial_s2p5_nuclei__CD1/native_full_major.rds",
+    "sha256": "0a2e49df92edee5f16080c65d535387291c435263fa1aea6e8d017e479903c56",
+    "bytes": 430585928,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_initial_s2p5_nuclei__CD1/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_initial_s2p5_nuclei__CD1/qa.json",
+    "sha256": "59d84358654e96979b163373c8e2b57475c8008e7b6e0927defb44c52e5be773",
+    "bytes": 1098,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_initial_s2p5_nuclei__CD2/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_initial_s2p5_nuclei__CD2/native_full_major.rds",
+    "sha256": "50ad90d0002db822704fcf1defe1867e5767c8581fadaf40e38c55e11d34ae70",
+    "bytes": 293246811,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_initial_s2p5_nuclei__CD2/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_initial_s2p5_nuclei__CD2/qa.json",
+    "sha256": "6b9a450fcabeb608e0f8559dfb6dfedc537dcfe179d85b88183eeac60da89635",
+    "bytes": 1094,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_initial_s3p5_expand5__CD1/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_initial_s3p5_expand5__CD1/native_full_major.rds",
+    "sha256": "7006b7cc130e3983066127119f6ee70c7f9142aad0b7205c994b57b1496cb8f8",
+    "bytes": 857821775,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_initial_s3p5_expand5__CD1/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_initial_s3p5_expand5__CD1/qa.json",
+    "sha256": "63f125fbe9c8f78ba904dbb62e2e2c66fae1fe106aee5d20a81a11c5b09952a7",
+    "bytes": 1100,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_initial_s3p5_expand5__CD2/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_initial_s3p5_expand5__CD2/native_full_major.rds",
+    "sha256": "18a56162bbf58dac8e78363ddaf776bbde26563e78031592a2ba3d272702fc6f",
+    "bytes": 571133325,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_initial_s3p5_expand5__CD2/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_initial_s3p5_expand5__CD2/qa.json",
+    "sha256": "1cd2a2ba79f10a0518b0804f896c9646a7efd187d75950376dd6126756b9db91",
+    "bytes": 1096,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_initial_s3p5_nuclei__CD1/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_initial_s3p5_nuclei__CD1/native_full_major.rds",
+    "sha256": "228e0aa7c96831078da9e2ff51e97c5443e72d21dded15daab6dce2c9180f81b",
+    "bytes": 391104334,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_initial_s3p5_nuclei__CD1/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_initial_s3p5_nuclei__CD1/qa.json",
+    "sha256": "be3329dbfc58f31fd78c5854719e303aedacb08a445c8e55a969ae0f72e808b8",
+    "bytes": 1096,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_initial_s3p5_nuclei__CD2/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_initial_s3p5_nuclei__CD2/native_full_major.rds",
+    "sha256": "ee6d2d9c20ce56704d3f38a5001c69d7f40ca915c31acf527b5208df656e359a",
+    "bytes": 268095175,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_initial_s3p5_nuclei__CD2/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_initial_s3p5_nuclei__CD2/qa.json",
+    "sha256": "5abd5b3abef4d6d2562ce149891ff0a49c46b7914a5e01f570372785b3942a27",
+    "bytes": 1094,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_revised_s2p5_expand5__CD1/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_revised_s2p5_expand5__CD1/native_full_major.rds",
+    "sha256": "8140d83421bc75e835ba133d3e436f78040f6721aa30897d2d2c982578776816",
+    "bytes": 959357553,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_revised_s2p5_expand5__CD1/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_revised_s2p5_expand5__CD1/qa.json",
+    "sha256": "f44b0cf98bab1bd7211e63a7051ae15da2caa8ee5b39dc700fb9f5de4a0e40b3",
+    "bytes": 1092,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_revised_s2p5_expand5__CD2/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_revised_s2p5_expand5__CD2/native_full_major.rds",
+    "sha256": "46ec2e80c169be38b7c54ce6bbf64638302d850aa4313848eb9e54188cbb9ac9",
+    "bytes": 655409071,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_revised_s2p5_expand5__CD2/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_revised_s2p5_expand5__CD2/qa.json",
+    "sha256": "30b11770beb4788ed2d5961745cf4a4b711c2d858243dd5db8a9a2161a5b2b6d",
+    "bytes": 1088,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_revised_s2p5_nuclei__CD1/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_revised_s2p5_nuclei__CD1/native_full_major.rds",
+    "sha256": "56edd5b78b5c62969fa4b4b13868c3a56c09ba9ee662a95a8dc704b03db0a60f",
+    "bytes": 450403600,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_revised_s2p5_nuclei__CD1/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_revised_s2p5_nuclei__CD1/qa.json",
+    "sha256": "18068ec1bb0aa48a777c2a63d058c117b2314cff9e4275bc3f0b8fb345e1b299",
+    "bytes": 1098,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_revised_s2p5_nuclei__CD2/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_revised_s2p5_nuclei__CD2/native_full_major.rds",
+    "sha256": "aeac619ce63dce90d77f42dbd1af0db334dccc18832a6c2030738b2cd36c1203",
+    "bytes": 314508139,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_revised_s2p5_nuclei__CD2/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_revised_s2p5_nuclei__CD2/qa.json",
+    "sha256": "5b0d543cc2c61965255f4927bfb1fb921e1daefd4df43f2bf23817dd5954058a",
+    "bytes": 1096,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_revised_s3p5_expand5__CD1/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_revised_s3p5_expand5__CD1/native_full_major.rds",
+    "sha256": "2117f8ddfbff8c76596252298130e49492466d6db68dc93f7db864a7cd49bd40",
+    "bytes": 901909769,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_revised_s3p5_expand5__CD1/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_revised_s3p5_expand5__CD1/qa.json",
+    "sha256": "2695e0ae00b9797f5fbae7467d218a695f31e4f53be4bf8c14ed0614a07099f2",
+    "bytes": 1101,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_revised_s3p5_expand5__CD2/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_revised_s3p5_expand5__CD2/native_full_major.rds",
+    "sha256": "1a2e4b87919647280defb822be05b0d0b2975d9625b10bb941037e36e498fad5",
+    "bytes": 612378075,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_revised_s3p5_expand5__CD2/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_revised_s3p5_expand5__CD2/qa.json",
+    "sha256": "b2a8c1db6ddcceea8223da4f2e5aa827b20652cb067c05d7f31820288b20c8d9",
+    "bytes": 1098,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_revised_s3p5_nuclei__CD1/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_revised_s3p5_nuclei__CD1/native_full_major.rds",
+    "sha256": "df14a6373146490d76092d57e78293ac4c76fe955080898208d139cdec756428",
+    "bytes": 411685148,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_revised_s3p5_nuclei__CD1/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_revised_s3p5_nuclei__CD1/qa.json",
+    "sha256": "882ae82758d19d8c93dcd04f21222cac28795cb8ba1e0e4c7d8d8825b4d18c2e",
+    "bytes": 1098,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_revised_s3p5_nuclei__CD2/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_revised_s3p5_nuclei__CD2/native_full_major.rds",
+    "sha256": "201168f9db4446fa0f7d6c9ec94b6a3a0ea632df39abc7fe2c563eeb3c2a1fbd",
+    "bytes": 290087912,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/Zhang_revised_s3p5_nuclei__CD2/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/Zhang_revised_s3p5_nuclei__CD2/qa.json",
+    "sha256": "e084c3ad7f4d3f8e65e07da2db0292017dc780481d7fc201192a81ebfc9ee597",
+    "bytes": 1094,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/microSAM_LM_AIS__CD1/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/microSAM_LM_AIS__CD1/native_full_major.rds",
+    "sha256": "5694885ab49d6137d0f9b28036c3ba83e418f5e492ab988e6dd55540191ed90f",
+    "bytes": 75631611,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/microSAM_LM_AIS__CD1/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/microSAM_LM_AIS__CD1/qa.json",
+    "sha256": "030c1514e828c60a65f2b9da9e01f168ddb2909a87aa5df8194b5327ed297e08",
+    "bytes": 1055,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/microSAM_LM_AIS__CD2/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/microSAM_LM_AIS__CD2/native_full_major.rds",
+    "sha256": "fe40b757a609a4b69fe889744e498a3af83651d743c5767410f72abda3b94eb1",
+    "bytes": 106382923,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/microSAM_LM_AIS__CD2/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/microSAM_LM_AIS__CD2/qa.json",
+    "sha256": "b76edc80c58c95cc0b98c4b2da82ab8b7f36ad4d904d9e0d0b7bb72960715f63",
+    "bytes": 1055,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/microSAM_LM_AMG__CD1/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/microSAM_LM_AMG__CD1/native_full_major.rds",
+    "sha256": "d3189179e3f2fbcffc23ec97f01e033f770a7c805b92908346d55fd294821919",
+    "bytes": 1340557,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/microSAM_LM_AMG__CD1/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/microSAM_LM_AMG__CD1/qa.json",
+    "sha256": "000b7d57899b58ae0d818c63af764a21ecda7a75166cb5199ae836a53121e4d5",
+    "bytes": 855,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/microSAM_LM_AMG__CD2/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/microSAM_LM_AMG__CD2/native_full_major.rds",
+    "sha256": "c39da84ff078edf588e899d6e2e4634f00813a265197867ae441a115503ffa32",
+    "bytes": 1340557,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/microSAM_LM_AMG__CD2/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/microSAM_LM_AMG__CD2/qa.json",
+    "sha256": "7f7803153ab04d5c1ab424cdecc6dde41b76721ff74367a2d5b57d46b8253b1d",
+    "bytes": 853,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/skimage_HE__CD1/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/skimage_HE__CD1/native_full_major.rds",
+    "sha256": "cec8a9c9e4e48b3729baa4caa816385075100c9f38cfcbdf384e0981d76287c5",
+    "bytes": 284426361,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/skimage_HE__CD1/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/skimage_HE__CD1/qa.json",
+    "sha256": "5f5191a53d9065851b91c2d648aa96a377fc2fb130e7d642b0c4aea967f67fdd",
+    "bytes": 1049,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/skimage_HE__CD2/native_full_major.rds",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/skimage_HE__CD2/native_full_major.rds",
+    "sha256": "af75b91019fc5d9d7d78da4ee44295b68858e92c97b43484bb99193710dcd657",
+    "bytes": 201037556,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "results/rctd/skimage_HE__CD2/qa.json",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/skimage_HE__CD2/qa.json",
+    "sha256": "25c853924d7cb32ea102971f6ee98581cab67788a6b93565fad57e063d3d374c",
+    "bytes": 1046,
+    "kind": "native_RCTD"
+  },
+  {
+    "file": "figures/main/Figure1_segmentation_RCTD_workflow.png",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/figures/main/Figure1_segmentation_RCTD_workflow.png",
+    "sha256": "c1f5655d386743a068edb0745f776c7dd569a747d1e036f6a81bbe4f925dbe0c",
+    "bytes": 2205618,
+    "kind": "paper_figure_local_permissions_pending"
+  },
+  {
+    "file": "figures/main/Figure3_RCTD_concordance_dominance.png",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/figures/main/Figure3_RCTD_concordance_dominance.png",
+    "sha256": "cadf0d4918e3afeb2140ae71c8a8f4c5ae6510d9cedfb3cf138a0ef8b1faa7c7",
+    "bytes": 833130,
+    "kind": "paper_figure_local_permissions_pending"
+  },
+  {
+    "file": "figures/main/metric_summary.png",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/figures/main/metric_summary.png",
+    "sha256": "64efd808f7f0357f6243bcd76ea66aa3f6625bd86a77be77522181535552a5bb",
+    "bytes": 908799,
+    "kind": "paper_figure_local_permissions_pending"
+  },
+  {
+    "file": "figures/supplementary/rctd/CD1_major_calls_01.png",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/figures/supplementary/rctd/CD1_major_calls_01.png",
+    "sha256": "a1896c1743b04a7184374751cec52c2ad8a042610efb36b9cb9e367181c78351",
+    "bytes": 21304484,
+    "kind": "paper_figure_local_permissions_pending"
+  },
+  {
+    "file": "figures/supplementary/rctd/CD1_major_calls_02.png",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/figures/supplementary/rctd/CD1_major_calls_02.png",
+    "sha256": "bf4794a41d53f81f54561dda816169f3bb43e2f95fb469490394c54830dea584",
+    "bytes": 21181293,
+    "kind": "paper_figure_local_permissions_pending"
+  },
+  {
+    "file": "figures/supplementary/rctd/CD1_major_calls_03.png",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/figures/supplementary/rctd/CD1_major_calls_03.png",
+    "sha256": "3ef7aecdef1e21b6f9767868cd430b41373da34f7136de5be7a7fd3eb2f5cbe2",
+    "bytes": 20848011,
+    "kind": "paper_figure_local_permissions_pending"
+  },
+  {
+    "file": "figures/supplementary/rctd/CD1_major_calls_04.png",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/figures/supplementary/rctd/CD1_major_calls_04.png",
+    "sha256": "b7c8d297edcc0c140de0257c9083a439042b59ee326e6f14d2b1817d072ef76f",
+    "bytes": 20539945,
+    "kind": "paper_figure_local_permissions_pending"
+  },
+  {
+    "file": "figures/supplementary/rctd/CD2_major_calls_01.png",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/figures/supplementary/rctd/CD2_major_calls_01.png",
+    "sha256": "90153626c2ddf17bcb0f293e342ef7ef526a0fb76314b1ee71977e08b5b2bd05",
+    "bytes": 20491235,
+    "kind": "paper_figure_local_permissions_pending"
+  },
+  {
+    "file": "figures/supplementary/rctd/CD2_major_calls_02.png",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/figures/supplementary/rctd/CD2_major_calls_02.png",
+    "sha256": "a2e2e757bbbf8ec71207ea0700a108823847804cf11844354443019273ca2453",
+    "bytes": 20368058,
+    "kind": "paper_figure_local_permissions_pending"
+  },
+  {
+    "file": "figures/supplementary/rctd/CD2_major_calls_03.png",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/figures/supplementary/rctd/CD2_major_calls_03.png",
+    "sha256": "128b5a1db1cb19fe3269e3c61a28d9bfca15ab9df74e755340b317d0700f2269",
+    "bytes": 20059342,
+    "kind": "paper_figure_local_permissions_pending"
+  },
+  {
+    "file": "figures/supplementary/rctd/CD2_major_calls_04.png",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/figures/supplementary/rctd/CD2_major_calls_04.png",
+    "sha256": "7f7d783450aa25586b220b9e62515a3488713d3f147ddf2a8ea43922d128eb5b",
+    "bytes": 19889276,
+    "kind": "paper_figure_local_permissions_pending"
+  },
+  {
+    "file": "figures/supplementary/segmentation/CD1_comparison_01.png",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/figures/supplementary/segmentation/CD1_comparison_01.png",
+    "sha256": "247ec076bb9b45227c4c1b6c640cb61bcc24d7ffacee4c61b14d5ad8697fdb25",
+    "bytes": 22690840,
+    "kind": "paper_figure_local_permissions_pending"
+  },
+  {
+    "file": "figures/supplementary/segmentation/CD1_comparison_02.png",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/figures/supplementary/segmentation/CD1_comparison_02.png",
+    "sha256": "6fbbab9837caddb00df5d524858960db08a3d93c50d024ad6c3d71cc211bd5cd",
+    "bytes": 22722181,
+    "kind": "paper_figure_local_permissions_pending"
+  },
+  {
+    "file": "figures/supplementary/segmentation/CD1_comparison_03.png",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/figures/supplementary/segmentation/CD1_comparison_03.png",
+    "sha256": "f3b2d585b2597f82abbe9c4a3869cadc53e050f1ea5c7fcf27e948c22f23aef0",
+    "bytes": 22812807,
+    "kind": "paper_figure_local_permissions_pending"
+  },
+  {
+    "file": "figures/supplementary/segmentation/CD1_comparison_04.png",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/figures/supplementary/segmentation/CD1_comparison_04.png",
+    "sha256": "6054d233af14bc9729bf7df1536d3640f1e106400d602a5466fb2469997fa905",
+    "bytes": 22871608,
+    "kind": "paper_figure_local_permissions_pending"
+  },
+  {
+    "file": "figures/supplementary/segmentation/CD2_comparison_01.png",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/figures/supplementary/segmentation/CD2_comparison_01.png",
+    "sha256": "5dd12c50b981a71c89a56280f0804c2c5fc0df108dc2d591b4ef80f37c1ce85e",
+    "bytes": 21676723,
+    "kind": "paper_figure_local_permissions_pending"
+  },
+  {
+    "file": "figures/supplementary/segmentation/CD2_comparison_02.png",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/figures/supplementary/segmentation/CD2_comparison_02.png",
+    "sha256": "679cfdafdf37734cce093cbd6ce6b6e59da0bbc326abf05f84d092f737120437",
+    "bytes": 21735456,
+    "kind": "paper_figure_local_permissions_pending"
+  },
+  {
+    "file": "figures/supplementary/segmentation/CD2_comparison_03.png",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/figures/supplementary/segmentation/CD2_comparison_03.png",
+    "sha256": "2fee58a1cd66fd98c1a39e981a1228fc1d206284911f98b7180d241595fa6824",
+    "bytes": 21759794,
+    "kind": "paper_figure_local_permissions_pending"
+  },
+  {
+    "file": "figures/supplementary/segmentation/CD2_comparison_04.png",
+    "source": "/mnt/HDD1/references/benchmarks/zhang_segmentation_benchmark_20261024/figures/supplementary/segmentation/CD2_comparison_04.png",
+    "sha256": "30ab30cd7185553a4e49b5cc31b1eb6e257a3530858bae7ade6748eb953d5f56",
+    "bytes": 21805232,
+    "kind": "paper_figure_local_permissions_pending"
+  },
+  {
+    "file": "results/tables/CD1_agreement.csv",
+    "source": "previous selected numerical table",
+    "sha256": "678f673b405fb1d61190d74e17e315195ad81c29634f01dac70fcff04817a296",
+    "bytes": 7332,
+    "kind": "table"
+  },
+  {
+    "file": "results/tables/CD1_denominators.csv",
+    "source": "previous selected numerical table",
+    "sha256": "0173587ae7b0a729fc881201e023fa005ff4be9cac5a644b741056ef773347cb",
+    "bytes": 2892,
+    "kind": "table"
+  },
+  {
+    "file": "results/tables/CD2_agreement.csv",
+    "source": "previous selected numerical table",
+    "sha256": "ea4a8a7b833323fe05b1846373b907979b70c7130e85289c98761638137200e8",
+    "bytes": 7304,
+    "kind": "table"
+  },
+  {
+    "file": "results/tables/CD2_denominators.csv",
+    "source": "previous selected numerical table",
+    "sha256": "e71c07c6f7ea9d541f7a049042c8923a3659f254d2dc9b62a9b7880461cdc77e",
+    "bytes": 2832,
+    "kind": "table"
+  },
+  {
+    "file": "results/tables/mean_agreement.csv",
+    "source": "previous selected numerical table",
+    "sha256": "06650887324e9e50a7d7eb18a76f7f3fe0752de4ad386bf78fe8fbf84427bba5",
+    "bytes": 6977,
+    "kind": "table"
+  },
+  {
+    "file": "results/tables/mean_rank_contributions.csv",
+    "source": "previous selected numerical table",
+    "sha256": "9d497bc97b6cc6eab587b7d917c9daf44d358934abcc17c07c3dcd1f496dd0a4",
+    "bytes": 13794,
+    "kind": "table"
+  },
+  {
+    "file": "results/tables/rank_by_slice.csv",
+    "source": "previous selected numerical table",
+    "sha256": "6751736d2f9d2ac726758241d7211f1b234b0d97ca8740a13f1cca323980b028",
+    "bytes": 19217,
+    "kind": "table"
+  },
+  {
+    "file": "results/tables/rctd_full_major_summary.csv",
+    "source": "previous selected numerical table",
+    "sha256": "68814be2902bbee4978a0e56c2c30195a7c191f7cc89a0a283db264c1c4064de",
+    "bytes": 12415,
+    "kind": "table"
+  },
+  {
+    "file": "results/tables/segmentation_metrics.csv",
+    "source": "previous selected numerical table",
+    "sha256": "ddd8c2e9c127683fb0e9cc7d1c2b01ba4c6fa6650104948faf054177b1d574d1",
+    "bytes": 37738,
+    "kind": "table"
+  },
+  {
+    "file": "results/tables/tradeoff_correlations.csv",
+    "source": "previous selected numerical table",
+    "sha256": "34e3f12718be64daa72f1bed072e6fd37ab1a9ebca81e2f22bb806cde6127585",
+    "bytes": 87,
+    "kind": "table"
+  },
+  {
+    "file": "results/tables/tradeoff_mean_points.csv",
+    "source": "previous selected numerical table",
+    "sha256": "c57eccd27f2ac7a7d2ef343a22a56514c07ad405fa0e2b3669b93a26c45fe3ec",
+    "bytes": 1635,
+    "kind": "table"
+  },
+  {
+    "file": "results/tables/tradeoff_points.csv",
+    "source": "previous selected numerical table",
+    "sha256": "a8e2a077837876b1e14408e09430240edcef632a664e3c32f18129e99e25dfcb",
+    "bytes": 5353,
+    "kind": "table"
+  }
+]

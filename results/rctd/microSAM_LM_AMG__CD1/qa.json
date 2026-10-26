@@ -1,0 +1,29 @@
+{
+  "job": "microSAM_LM_AMG__CD1",
+  "method": null,
+  "sample": null,
+  "status": "ZERO_REGIONS_NO_RCTD_FIT",
+  "input_regions": 0,
+  "zero_RNA_regions": 0,
+  "source_umi": 103577252,
+  "assigned_umi": 0,
+  "unassigned_umi": 103577252,
+  "native_retained_regions": 0,
+  "native_excluded_regions": 0,
+  "retained_assigned_umi": 0,
+  "cell_types": {},
+  "numeric_qa": {
+    "native_min": {},
+    "native_max": {},
+    "negative_entries": {},
+    "above_one_entries": {},
+    "column_sum_max_error": {},
+    "domain_ok": null,
+    "native_values_preserved_without_clipping": true
+  },
+  "readback_exact": true,
+  "counts_conserved_exact": true,
+  "path": "/home/lmassimino/references/benchmarks/zhang_segmentation_benchmark_20261024/rctd/results/microSAM_LM_AMG__CD1/native_full_major.rds",
+  "md5": "c35e4b2e29b13bcdc2cc1c931153a3a6",
+  "bytes": 1340557
+}

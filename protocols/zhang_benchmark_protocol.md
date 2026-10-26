@@ -1,0 +1,11 @@
+# Zhang H&E segmentation benchmark
+
+User-authorized restart: compare all methods previously tried in this chat on both complete Zhang sections, not Du IMC. Source is catalog ID271, GSE302569, 18,085 genes and 988,942 deposited 8um RNA bins. No new biological reference, RCTD or catalog promotion is performed by this benchmark.
+
+Preserve original coordinates, images and counts. For every method use the same bin-centre assignment and exact source UMI denominators, reporting outside-image counts separately. More covered RNA or more objects is not boundary accuracy. No ground truth or subcellular molecule positions exist in these inputs.
+
+Report every completed or failed configuration, never omit a sparse/zero result. Deliver full-section segmentation PNGs, identical zoom fields, common-scale comparison panels and machine-readable summary metrics: assigned/unassigned UMI and percentages, assigned/unassigned bins, objects, objects with/without RNA, UMI distribution per object, area quantiles, tissue coverage, runtime, model/version/preprocessing/target/expansion, geometry integrity and limitations. Summaries apply to full sections, not visual crops. The nominal old 4.5um seed spacing duplicates the effective 3.5um setting on these images; verify this and list the alias rather than pretending they are independent.
+
+Classical H&E preprocessing uses hematoxylin, recorded explicitly; it is not the old Du protein composite. Reproduce both initial all-hole filling and revised micro-hole filling, with nuclei-only and 5um expansion separately. InstanSeg's previous fluorescence model is explicitly out-of-domain; include its official brightfield_nuclei model as a matched comparison. Cellpose cyto3 uses bright hematoxylin signal and diameter20; SAM/DINO receive original RGB H&E. microSAM LM AIS, benchmark LM AMG and official PathoSAM H&E AIS remain separate models/pipelines. No custom segmentation is described as an official learned model.
+
+Keep final benchmark images, masks, tables and provenance for user review. Remove only transient implementation files and caches when no longer needed. Do not erase benchmark deliverables on technical completion. Use native plotting composition; no selective cell display, arbitrary coordinate transforms, invented annotations or unsupported accuracy scores.
