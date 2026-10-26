@@ -16,6 +16,9 @@ fibrostenotic Crohn's disease. Authors: Luca Massimino and Federica Ungaro.
 - `results/tables/`: 12 summary and underlying-figure CSVs.
 - `figures/`: the three main and 16 supplementary paper figures.
 - `metadata/`: file checksums, selection and release-asset inventory.
+- `provenance/`: exact original-bin mapping/geometry, runtime and model evidence,
+  and RCTD input/reference QA for all 40 scopes. Historical source paths are
+  execution records, not instructions to use those host-specific locations.
 
 ## Full data
 

@@ -1,0 +1,12 @@
+{
+  "job": "skimage_HE__CD2",
+  "path": "/home/lmassimino/references/_staging/zhang_all_masks_major_full_20261025/counts/skimage_HE__CD2.counts.rds",
+  "md5": "fc6cc6dd90dcb89080008d3ea0d5d84c",
+  "regions": 22250,
+  "zero_RNA_regions": 7713,
+  "assigned_umi": 21752322,
+  "unassigned_umi": 54267001,
+  "source_umi": 76019323,
+  "per_gene_counts_conserved_exact": true,
+  "counts_readback_exact": true
+}

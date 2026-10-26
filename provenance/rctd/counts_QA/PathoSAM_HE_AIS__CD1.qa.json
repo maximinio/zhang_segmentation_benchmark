@@ -1,0 +1,12 @@
+{
+  "job": "PathoSAM_HE_AIS__CD1",
+  "path": "/home/lmassimino/references/_staging/zhang_all_masks_major_full_20261025/counts/PathoSAM_HE_AIS__CD1.counts.rds",
+  "md5": "bc5ea27f2974b3d17f2fe00f4d938b8a",
+  "regions": 3418,
+  "zero_RNA_regions": 1324,
+  "assigned_umi": 2636043,
+  "unassigned_umi": 100941209,
+  "source_umi": 103577252,
+  "per_gene_counts_conserved_exact": true,
+  "counts_readback_exact": true
+}

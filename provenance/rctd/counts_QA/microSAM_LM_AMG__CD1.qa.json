@@ -1,0 +1,12 @@
+{
+  "job": "microSAM_LM_AMG__CD1",
+  "path": "/home/lmassimino/references/_staging/zhang_all_masks_major_full_20261025/counts/microSAM_LM_AMG__CD1.counts.rds",
+  "md5": "7e2a61c8e69fa3e3d57e8c7d2fa945ac",
+  "regions": 0,
+  "zero_RNA_regions": 0,
+  "assigned_umi": 0,
+  "unassigned_umi": 103577252,
+  "source_umi": 103577252,
+  "per_gene_counts_conserved_exact": true,
+  "counts_readback_exact": true
+}

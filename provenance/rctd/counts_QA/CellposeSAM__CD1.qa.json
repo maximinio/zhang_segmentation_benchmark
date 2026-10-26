@@ -1,0 +1,12 @@
+{
+  "job": "CellposeSAM__CD1",
+  "path": "/home/lmassimino/references/_staging/zhang_all_masks_major_full_20261025/counts/CellposeSAM__CD1.counts.rds",
+  "md5": "d251470d1db8076f3c96d26dd24a5171",
+  "regions": 43931,
+  "zero_RNA_regions": 24692,
+  "assigned_umi": 5289458,
+  "unassigned_umi": 98287794,
+  "source_umi": 103577252,
+  "per_gene_counts_conserved_exact": true,
+  "counts_readback_exact": true
+}

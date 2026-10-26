@@ -1,0 +1,9 @@
+{
+  "status": "ALL_40_SCOPES_VERIFIED_PENDING_INTERPRETATION",
+  "jobs": 40,
+  "full_fits": 38,
+  "zero_region_scopes": 2,
+  "no_drive_upload": true,
+  "all_native_containers_readback_and_md5_verified": true,
+  "boundary_accuracy_not_measured": true
+}

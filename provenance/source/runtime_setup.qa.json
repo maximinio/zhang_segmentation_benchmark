@@ -1,0 +1,29 @@
+{
+  "valid": true,
+  "runtimes": {
+    "modern": {
+      "python": "/home/lmassimino/references/_staging/zhang_segmentation_benchmark_20261024/runtimes/modern/bin/python",
+      "torch": "2.5.1+cu121",
+      "torchvision": "0.20.1+cu121",
+      "cuda": "12.1",
+      "device": "NVIDIA GeForce RTX 2080 Ti",
+      "cellpose": "4.2.1",
+      "cellpose_eval_signature": "(self, x, batch_size=8, resample=True, channels=None, channel_axis=None, z_axis=None, normalize=True, rescale=None, diameter=None, flow_threshold=0.4, cellprob_threshold=0.0, do_3D=False, anisotropy=None, flow3D_smooth=0, stitch_threshold=0.0, min_size=15, max_size_fraction=0.4, niter=None, augment=False, tile_overlap=0.1, bsize=None, compute_masks=True, progress=None)",
+      "instanseg": "0.1.2",
+      "micro_sam": "1.8.14",
+      "instanseg_eval": "(self, image: Union[str, List[str]], pixel_size: Optional[float] = None, save_output: bool = False, save_overlay: bool = False, save_geojson: bool = False, processing_method: str = 'auto', **kwargs) -> Union[torch.Tensor, List[torch.Tensor], NoneType]",
+      "instanseg_medium": "(self, image: torch.Tensor, pixel_size: Optional[float] = None, normalise: bool = True, tile_size: int = 512, batch_size: int = 1, return_image_tensor: bool = True, normalisation_subsampling_factor: int = 1, target: str = 'all_outputs', rescale_output: bool = True, **kwargs) -> Union[torch.Tensor, Tuple[torch.Tensor, torch.Tensor]]",
+      "sam_predictor": "(model_type: str, checkpoint: Union[str, os.PathLike, NoneType] = None, device: str = None, segmentation_mode: Optional[Literal['amg', 'ais', 'apg']] = None, is_tiled: bool = False, predictor=None, state=None, **kwargs) -> Tuple[segment_anything.predictor.SamPredictor, Union[micro_sam.instance_segmentation.AMGBase, micro_sam.instance_segmentation.InstanceSegmentationWithDecoder]]",
+      "sam_instance": "(predictor: segment_anything.predictor.SamPredictor, segmenter: Union[micro_sam.instance_segmentation.AMGBase, micro_sam.instance_segmentation.InstanceSegmentationWithDecoder], input_path: Union[os.PathLike, str, numpy.ndarray], output_path: Union[str, os.PathLike, NoneType] = None, embedding_path: Union[str, os.PathLike, NoneType] = None, mask_path: Union[os.PathLike, str, numpy.ndarray, NoneType] = None, key: Optional[str] = None, mask_key: Optional[str] = None, ndim: Optional[int] = None, tile_shape: Optional[Tuple[int, int]] = None, halo: Optional[Tuple[int, int]] = None, verbose: bool = True, return_embeddings: bool = False, annotate: bool = False, batch_size: int = 1, **generate_kwargs) -> numpy.ndarray"
+    },
+    "legacy": {
+      "python": "/home/lmassimino/references/_staging/zhang_segmentation_benchmark_20261024/runtimes/legacy/bin/python",
+      "torch": "2.5.1+cu121",
+      "torchvision": "0.20.1+cu121",
+      "cuda": "12.1",
+      "device": "NVIDIA GeForce RTX 2080 Ti",
+      "cellpose": "3.1.1.2",
+      "cellpose_eval_signature": "(self, x, batch_size=8, resample=True, channels=None, channel_axis=None, z_axis=None, normalize=True, invert=False, rescale=None, diameter=None, flow_threshold=0.4, cellprob_threshold=0.0, do_3D=False, anisotropy=None, flow3D_smooth=0, stitch_threshold=0.0, min_size=15, max_size_fraction=0.4, niter=None, augment=False, tile_overlap=0.1, bsize=224, interp=True, compute_masks=True, progress=None)"
+    }
+  }
+}

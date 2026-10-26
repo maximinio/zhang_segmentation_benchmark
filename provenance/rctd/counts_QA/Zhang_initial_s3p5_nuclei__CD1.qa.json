@@ -1,0 +1,12 @@
+{
+  "job": "Zhang_initial_s3p5_nuclei__CD1",
+  "path": "/home/lmassimino/references/_staging/zhang_all_masks_major_full_20261025/counts/Zhang_initial_s3p5_nuclei__CD1.counts.rds",
+  "md5": "b7cf0bab83ca5d9a62362c2ee9d94287",
+  "regions": 210697,
+  "zero_RNA_regions": 138780,
+  "assigned_umi": 32053406,
+  "unassigned_umi": 71523846,
+  "source_umi": 103577252,
+  "per_gene_counts_conserved_exact": true,
+  "counts_readback_exact": true
+}

@@ -1,0 +1,11 @@
+{
+  "latest_report.commit": "dcfd6586a9273be3756254d90c40110ae4418b10",
+  "bootstrap.commit": "7214750debb4b77fdfc4a2256d0f4a21ff37d8b1",
+  "delivery.commit": "f07484e98475df39038cc88114c575f8ca045f10",
+  "instanseg_recovery_01.commit": "e7e75b5489783021413f05b58ac17e6fdb87b9b3",
+  "classical.commit": "a767cf6ea6825e132a2055b913b7227460a08a28",
+  "learned.commit": "f30aa30338c0bda23479020eec2ae9785127c056",
+  "final_review.commit": "4d34b6dc38c5d2d57647f1ebd21529f50b0f9bbc",
+  "setup.recovery_02.commit": "8a55dc1e240f9fac8c6b26476e6ab31f4e819c4f",
+  "setup.recovery_01.commit": "9bfeaeba07a84489b25b85c014c78fb597513054"
+}

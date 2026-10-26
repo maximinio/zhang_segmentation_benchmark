@@ -1,0 +1,54 @@
+{
+  "valid": true,
+  "source": "/home/lmassimino/references/seurat/spatial/human/ibd/Zhang2025_CD_fibrostenosis_VisiumHD_GSE302569_counts_only.rds",
+  "source_md5": "762bde2b546922d698290bc6f9a93018",
+  "source_catalog_id": 271,
+  "genes": 18085,
+  "bins": 988942,
+  "sections": {
+    "CD1": {
+      "sample": "CD1",
+      "hires": 0.3994,
+      "um_per_pixel": 1.3983,
+      "basis": [
+        [-0.0052, -5.721],
+        [5.7212, -0.0052]
+      ],
+      "shape": [6000, 4792, 3],
+      "lattice_fit_max_error": 0.1531,
+      "total_umi": 103577252,
+      "inside_image_umi": 103576597,
+      "total_bins": 520101,
+      "inside_image_bins": 519704,
+      "image_md5": "f5b175cb1559ea28ca30de964b385547",
+      "native_image_class": "VisiumV2",
+      "coordinate_transform": "original hires scale only; no coordinate fitting applied",
+      "seed_setting_alias": {
+        "nominal_um": [3.5, 4.5],
+        "same_effective_min_distance_pixels": 3
+      }
+    },
+    "CD2": {
+      "sample": "CD2",
+      "hires": 0.4189,
+      "um_per_pixel": 1.3335,
+      "basis": [
+        [0.0081, 5.9991],
+        [-5.9989, 0.0082]
+      ],
+      "shape": [6000, 5148, 3],
+      "lattice_fit_max_error": 0.0274,
+      "total_umi": 76019323,
+      "inside_image_umi": 76019148,
+      "total_bins": 468841,
+      "inside_image_bins": 468579,
+      "image_md5": "6cb7a48208df8594cb2e50ca74a57b48",
+      "native_image_class": "VisiumV2",
+      "coordinate_transform": "original hires scale only; no coordinate fitting applied",
+      "seed_setting_alias": {
+        "nominal_um": [3.5, 4.5],
+        "same_effective_min_distance_pixels": 3
+      }
+    }
+  }
+}

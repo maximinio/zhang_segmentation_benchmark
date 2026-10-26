@@ -1,0 +1,12 @@
+{
+  "job": "CellposeDINOsmall__CD2",
+  "path": "/home/lmassimino/references/_staging/zhang_all_masks_major_full_20261025/counts/CellposeDINOsmall__CD2.counts.rds",
+  "md5": "7ff1935fcbbaa643ddc8fd17f921ee02",
+  "regions": 11104,
+  "zero_RNA_regions": 3194,
+  "assigned_umi": 3572432,
+  "unassigned_umi": 72446891,
+  "source_umi": 76019323,
+  "per_gene_counts_conserved_exact": true,
+  "counts_readback_exact": true
+}

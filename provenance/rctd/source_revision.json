@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/maximinio/scripts",
+  "branch": "master",
+  "revision": "e1185b8e20a1f17b1d597490db63fd9e054f7a2a",
+  "verified_remote_revision": "e1185b8e20a1f17b1d597490db63fd9e054f7a2a",
+  "recovery_scope": "prepare_counts from beginning; old output not accepted"
+}

@@ -25,8 +25,10 @@
     "zhang_major_call_supplement.R",
     "zhang_major_call_supplement.py"
   ],
-  "no_public_upload": true,
   "code_revision_before_layout_change": "28c84e87909123164fdc1ef8fca2eb72db9d8237",
   "organized_source_revision": "0aac4792d956da2b57d9ddc5859e651bd506329e",
-  "verified_remote_revision": "0aac4792d956da2b57d9ddc5859e651bd506329e"
+  "verified_remote_revision": "0aac4792d956da2b57d9ddc5859e651bd506329e",
+  "assembly_stage_no_public_upload": true,
+  "public_repository": "https://github.com/maximinio/zhang_segmentation_benchmark",
+  "release_url": "https://github.com/maximinio/zhang_segmentation_benchmark/releases/tag/data-v1"
 }

@@ -1,0 +1,12 @@
+{
+  "job": "Zhang_revised_s2p5_nuclei__CD2",
+  "path": "/home/lmassimino/references/_staging/zhang_all_masks_major_full_20261025/counts/Zhang_revised_s2p5_nuclei__CD2.counts.rds",
+  "md5": "5cf7ac4d626b39b653003c25d0cc0cfd",
+  "regions": 149465,
+  "zero_RNA_regions": 104832,
+  "assigned_umi": 20356367,
+  "unassigned_umi": 55662956,
+  "source_umi": 76019323,
+  "per_gene_counts_conserved_exact": true,
+  "counts_readback_exact": true
+}

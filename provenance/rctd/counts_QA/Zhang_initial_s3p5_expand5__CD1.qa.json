@@ -1,0 +1,12 @@
+{
+  "job": "Zhang_initial_s3p5_expand5__CD1",
+  "path": "/home/lmassimino/references/_staging/zhang_all_masks_major_full_20261025/counts/Zhang_initial_s3p5_expand5__CD1.counts.rds",
+  "md5": "949840ebb43741113ea0aef2e312c329",
+  "regions": 210697,
+  "zero_RNA_regions": 71474,
+  "assigned_umi": 77301872,
+  "unassigned_umi": 26275380,
+  "source_umi": 103577252,
+  "per_gene_counts_conserved_exact": true,
+  "counts_readback_exact": true
+}

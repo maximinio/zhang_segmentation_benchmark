@@ -1,0 +1,131 @@
+{
+  "models": [
+    {
+      "relative_path": "cellpose/cpdino",
+      "bytes": 1213987717,
+      "sha256": "fad0dda262554922da1c5ab0e0004b00c1b14b8a48bea6781b89222567577573"
+    },
+    {
+      "relative_path": "cellpose/cpdino-vitb",
+      "bytes": 343599997,
+      "sha256": "3ed4c06a3963ab13ff377d4e2957174aaaf637434eb031ae9931fcbfaf9a217f"
+    },
+    {
+      "relative_path": "cellpose/cpsam",
+      "bytes": 1233587898,
+      "sha256": "e1440429eb384f95afe32bcba6510f90d518eaedc917ede549bed6804004abe2"
+    },
+    {
+      "relative_path": "cellpose/cpsam_v2",
+      "bytes": 1233586851,
+      "sha256": "0f1cc3f7ecdd8a037a57c6c48d9d8921391be4cbce3fa9f13c3e3a2e1253c667"
+    },
+    {
+      "relative_path": "cellpose/cyto3",
+      "bytes": 26566255,
+      "sha256": "2dc3087a8abd7da46d1ab0ddd5824639933cc3ff63b382af3fa1939a392db93c"
+    },
+    {
+      "relative_path": "instanseg/brightfield_nuclei/0.1.1/brightfield_nuclei_README.md",
+      "bytes": 1406,
+      "sha256": "5882cdd33e76c5bea040d8ccb699a62539c32e6b3c66b39cd9634ca0a0f2fd23"
+    },
+    {
+      "relative_path": "instanseg/brightfield_nuclei/0.1.1/cover.png",
+      "bytes": 197014,
+      "sha256": "48ee7f4ccf6580b00de3820aa210a9a74431a4f1449b0b59661136716ec96d22"
+    },
+    {
+      "relative_path": "instanseg/brightfield_nuclei/0.1.1/instanseg.pt",
+      "bytes": 15792317,
+      "sha256": "0c724da169d507d8dd2e206ad3675a0b1566824eee6e20ad9a0ba916311d9dd0"
+    },
+    {
+      "relative_path": "instanseg/brightfield_nuclei/0.1.1/instanseg_postprocess.ijm",
+      "bytes": 2293,
+      "sha256": "0886f52737326dba0c6d53528909d746e75e0dce7a0cb41e855a648f8133ba88"
+    },
+    {
+      "relative_path": "instanseg/brightfield_nuclei/0.1.1/instanseg_preprocess.ijm",
+      "bytes": 799,
+      "sha256": "53376aec6738fb19eab1ace9308c383ee04e46af2a3acf7e70b5862919dca86c"
+    },
+    {
+      "relative_path": "instanseg/brightfield_nuclei/0.1.1/rdf.yaml",
+      "bytes": 2623,
+      "sha256": "57a28f865983f05b874dc2ad2c93570abaa53194e79aef63cfc5f9b4a88fd42a"
+    },
+    {
+      "relative_path": "instanseg/brightfield_nuclei/0.1.1/test-input.npy",
+      "bytes": 786560,
+      "sha256": "7249485eca44eefcaf9c8fcd9ce7f8ab5257082c49ecd0e9f62a818e8d4096db"
+    },
+    {
+      "relative_path": "instanseg/brightfield_nuclei/0.1.1/test-output_instance_segmentation.npy",
+      "bytes": 262272,
+      "sha256": "5dc0f7ed283f786ea4edc88714f6c2d4ae38e9eec2d00bb24b7f3c46060a7c6e"
+    },
+    {
+      "relative_path": "instanseg/fluorescence_nuclei_and_cells/0.1.1/cover.png",
+      "bytes": 91572,
+      "sha256": "5516689c2e8e403d7ea7f7ac4f694ee6019905ff91f5ade55bcade10dae8f8c5"
+    },
+    {
+      "relative_path": "instanseg/fluorescence_nuclei_and_cells/0.1.1/fluorescence_nuclei_and_cells_README.md",
+      "bytes": 1083,
+      "sha256": "4e75c20db5d273d8849dc5a9793e509c00adb098905b9145d3a865b9951a2f21"
+    },
+    {
+      "relative_path": "instanseg/fluorescence_nuclei_and_cells/0.1.1/instanseg.pt",
+      "bytes": 20850400,
+      "sha256": "636833d26b5afcc03bde1357b3e669cf015e91dd1edda863aa51c19eee986562"
+    },
+    {
+      "relative_path": "instanseg/fluorescence_nuclei_and_cells/0.1.1/instanseg_postprocess.ijm",
+      "bytes": 2293,
+      "sha256": "0886f52737326dba0c6d53528909d746e75e0dce7a0cb41e855a648f8133ba88"
+    },
+    {
+      "relative_path": "instanseg/fluorescence_nuclei_and_cells/0.1.1/instanseg_preprocess.ijm",
+      "bytes": 799,
+      "sha256": "53376aec6738fb19eab1ace9308c383ee04e46af2a3acf7e70b5862919dca86c"
+    },
+    {
+      "relative_path": "instanseg/fluorescence_nuclei_and_cells/0.1.1/rdf.yaml",
+      "bytes": 2685,
+      "sha256": "d2b741585fb88cda1bfb552f2829cbdeeed1e814638ea45bbb111bfd6a326281"
+    },
+    {
+      "relative_path": "instanseg/fluorescence_nuclei_and_cells/0.1.1/test-input.npy",
+      "bytes": 524416,
+      "sha256": "2c65ea28d752e79281f530ef5292b06fb221e9b314908d7e9092efaba02168ff"
+    },
+    {
+      "relative_path": "instanseg/fluorescence_nuclei_and_cells/0.1.1/test-output_instance_segmentation.npy",
+      "bytes": 524416,
+      "sha256": "c723b2b160a1803dbe1933757334416ae8c0b29e561175a145d27669bd9f2924"
+    },
+    {
+      "relative_path": "microsam/models/vit_b_histopathology",
+      "bytes": 375023106,
+      "sha256": "98c79908dd899e5d26ddf3fdca564d2642362146f30d4c867d38825c8b4ad417"
+    },
+    {
+      "relative_path": "microsam/models/vit_b_histopathology_decoder",
+      "bytes": 44143988,
+      "sha256": "be91d6272ab2f5cdfeeee5c0b7eb6c864f860072739e246408b7212600849f4b"
+    },
+    {
+      "relative_path": "microsam/models/vit_b_lm",
+      "bytes": 375023499,
+      "sha256": "ffe862fa5b58d78375506041faf0eb3927ced5b5391e8be383e6d7ac07aed924"
+    },
+    {
+      "relative_path": "microsam/models/vit_b_lm_decoder",
+      "bytes": 38393613,
+      "sha256": "3a1566aada52e24299286527ec60c966d213db86ee656c67439c71c1b4182c26"
+    }
+  ],
+  "package_runtime_qa": "runtime_setup.qa.json",
+  "model_names_and_native_parameters_in_method_metrics": true
+}

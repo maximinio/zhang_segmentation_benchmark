@@ -1,0 +1,22 @@
+{
+  "sample": "CD2",
+  "hires": 0.4189,
+  "um_per_pixel": 1.3335,
+  "basis": [
+    [0.0081, 5.9991],
+    [-5.9989, 0.0082]
+  ],
+  "shape": [6000, 5148, 3],
+  "lattice_fit_max_error": 0.0274,
+  "total_umi": 76019323,
+  "inside_image_umi": 76019148,
+  "total_bins": 468841,
+  "inside_image_bins": 468579,
+  "image_md5": "6cb7a48208df8594cb2e50ca74a57b48",
+  "native_image_class": "VisiumV2",
+  "coordinate_transform": "original hires scale only; no coordinate fitting applied",
+  "seed_setting_alias": {
+    "nominal_um": [3.5, 4.5],
+    "same_effective_min_distance_pixels": 3
+  }
+}

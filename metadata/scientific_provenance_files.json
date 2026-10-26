@@ -1,0 +1,277 @@
+[
+  {
+    "file": "provenance/source/CD1.geometry.json",
+    "sha256": "431be1eb009ddbec950ab51ba73c2b9bc2d7ee035d4a84b1c9f8db526647f53a",
+    "bytes": 585
+  },
+  {
+    "file": "provenance/source/CD2.geometry.json",
+    "sha256": "f81f7bf21e283fdfcd346069dfe8909f6bb95d7fab5f274583088282165e114f",
+    "bytes": 582
+  },
+  {
+    "file": "provenance/source/CD1.bins.csv",
+    "sha256": "531244b7b9396980cd16bc31f989898cc8824ab9daf7702b9b1fe0017c0678f8",
+    "bytes": 60020337
+  },
+  {
+    "file": "provenance/source/CD2.bins.csv",
+    "sha256": "352555ca923cefc546780252d5cf05b6341b4fec50fbf4acec35d03444be5132",
+    "bytes": 53969175
+  },
+  {
+    "file": "provenance/source/zhang_benchmark_config.json",
+    "sha256": "a43b52616f539dcfdae64034509196132a340a3ad4d07d5970b0843e903468e8",
+    "bytes": 4583
+  },
+  {
+    "file": "provenance/source/zhang_benchmark_protocol.md",
+    "sha256": "15e131482d4c18b0f4f4430c3ed1e4f9fbd99e8e25b6225710c346e17de990f0",
+    "bytes": 2317
+  },
+  {
+    "file": "provenance/source/model_cache_manifest.json",
+    "sha256": "10a4f6c23624b18ef0b88327fe1552bd08cf3c65124ad54601b51f57e17e26d2",
+    "bytes": 4983
+  },
+  {
+    "file": "provenance/source/runtime_setup.qa.json",
+    "sha256": "86118254355cb0ebab605c49c5e62270d2e7f09c54419d871251500514418d1b",
+    "bytes": 3345
+  },
+  {
+    "file": "provenance/source/export.qa.json",
+    "sha256": "f1eca4a2cf7f5ede7df5897d52877d0df02a6048b0d87d60e6fa9f1bdcdd65f6",
+    "bytes": 1645
+  },
+  {
+    "file": "provenance/source/visual_fields.json",
+    "sha256": "3d2f1688fb4b570fa3bd28bbf7f1d01236866da80d3146725901311e70b994c2",
+    "bytes": 652
+  },
+  {
+    "file": "provenance/source/code_revisions.json",
+    "sha256": "55976e3364f053c24cf4e43026d5eb298e7236c859a5bda7c39ea868ab80eea7",
+    "bytes": 628
+  },
+  {
+    "file": "provenance/rctd/reference.qa.json",
+    "sha256": "dc3103ec75c2e79e66a55915f398fc8c9e5bd1e3a799eed08896d59947278e72",
+    "bytes": 530
+  },
+  {
+    "file": "provenance/rctd/completion.json",
+    "sha256": "ce24cb7a46cf4240930a8de50f6bb260592ca860f91080a8def73e0bad32d102",
+    "bytes": 251
+  },
+  {
+    "file": "provenance/rctd/jobs.json",
+    "sha256": "2232672b39a1b7b3812862b1d2312d0bf432aff29cbc0019015c84d7d14d726e",
+    "bytes": 44934
+  },
+  {
+    "file": "provenance/rctd/source_revision.json",
+    "sha256": "f6c24a42b6b64eb57512a9f0d7298e84ae7dd8c73980de5c6ef967089a745f63",
+    "bytes": 290
+  },
+  {
+    "file": "provenance/rctd/counts_QA/skimage_HE__CD1.qa.json",
+    "sha256": "e25d2ea2c7641b91602e1dfc578298b8f20c9dfa454143ed643751282ab4da11",
+    "bytes": 406
+  },
+  {
+    "file": "provenance/rctd/counts_QA/Zhang_revised_s3p5_expand5__CD2.qa.json",
+    "sha256": "7b59d5534e67037f2a1883c6ea13b760f95092ca33d36d329218b9a83118c02c",
+    "bytes": 438
+  },
+  {
+    "file": "provenance/rctd/counts_QA/Zhang_initial_s3p5_nuclei__CD2.qa.json",
+    "sha256": "946e5bdf5e434b0b9166282277bfb567a9d8beed5e35213d187a3f24dcd00f32",
+    "bytes": 436
+  },
+  {
+    "file": "provenance/rctd/counts_QA/Zhang_initial_s3p5_expand5__CD1.qa.json",
+    "sha256": "4290871a8d7dcf623cc9f10576ed0148652c464e4fc110ce5a7eb5a89fee9990",
+    "bytes": 439
+  },
+  {
+    "file": "provenance/rctd/counts_QA/CellposeSAM__CD1.qa.json",
+    "sha256": "0e872def0eac5e1f6df69f405976cc65ea42484b42cabdefc29b00a6a9343067",
+    "bytes": 407
+  },
+  {
+    "file": "provenance/rctd/counts_QA/Zhang_initial_s2p5_expand5__CD1.qa.json",
+    "sha256": "d8542302c04f5c3d67a5b55e184cd5273007336762e2410bca592971188d2560",
+    "bytes": 440
+  },
+  {
+    "file": "provenance/rctd/counts_QA/PathoSAM_HE_AIS__CD1.qa.json",
+    "sha256": "75275e4a732740d395f9adf44ad5a6c574ff3abf87525e44c5b305d860327475",
+    "bytes": 414
+  },
+  {
+    "file": "provenance/rctd/counts_QA/Zhang_initial_s3p5_expand5__CD2.qa.json",
+    "sha256": "b703e202570c44006b73a91fc4f6981ad96673ae48e5bf61e085bc4d04b7e033",
+    "bytes": 438
+  },
+  {
+    "file": "provenance/rctd/counts_QA/Zhang_initial_s2p5_nuclei__CD1.qa.json",
+    "sha256": "033ca89fb27ec935b33754405ff4a35cceaa428bb841fafbb5fdc71e930fe85f",
+    "bytes": 438
+  },
+  {
+    "file": "provenance/rctd/counts_QA/Zhang_initial_s2p5_expand5__CD2.qa.json",
+    "sha256": "4cc8a7dd531411841269617e19f682302c3a271f937bfed06d577d47a876380e",
+    "bytes": 438
+  },
+  {
+    "file": "provenance/rctd/counts_QA/microSAM_LM_AMG__CD2.qa.json",
+    "sha256": "c4251e30b77a5f1080c4edceccc63b6250327833acfd1fa9108b85532f8c2eef",
+    "bytes": 400
+  },
+  {
+    "file": "provenance/rctd/counts_QA/CellposeSAMv2__CD1.qa.json",
+    "sha256": "8ebd9ed2b5070cb9e0cf2ccdfb0d24cea8076c3171a36b86055c622e405a5a31",
+    "bytes": 411
+  },
+  {
+    "file": "provenance/rctd/counts_QA/Zhang_revised_s3p5_nuclei__CD2.qa.json",
+    "sha256": "49d7236cd78dcba6887fa26db1a5311fe5ac6ed1cba5f1fb6460fe4e94b4b301",
+    "bytes": 436
+  },
+  {
+    "file": "provenance/rctd/counts_QA/Zhang_revised_s2p5_nuclei__CD2.qa.json",
+    "sha256": "a7aac90c0aad1ddbf350d51da7a970702a58601949606879aeeff0331aa24535",
+    "bytes": 437
+  },
+  {
+    "file": "provenance/rctd/counts_QA/InstanSeg_prior_fluor__CD1.qa.json",
+    "sha256": "6ed042880353734b5ae310128355f21cf04621fbb84b34353490d2e474f3e31b",
+    "bytes": 429
+  },
+  {
+    "file": "provenance/rctd/counts_QA/Zhang_revised_s3p5_expand5__CD1.qa.json",
+    "sha256": "4a8f30ce434c886a2e62eafe898cb11a326d1aa1a4ed9f59abb2bcf2989fa6a6",
+    "bytes": 439
+  },
+  {
+    "file": "provenance/rctd/counts_QA/InstanSeg_prior_fluor__CD2.qa.json",
+    "sha256": "baa41c649f72019f24db6b1b1e5666cad04819dc885c96295ef149f6fee2e329",
+    "bytes": 428
+  },
+  {
+    "file": "provenance/rctd/counts_QA/InstanSeg_HE__CD2.qa.json",
+    "sha256": "a0b0ebf116268d491f71e6d04e3287ef8f8aef256291d2d4699ac75bdf2fdfe9",
+    "bytes": 408
+  },
+  {
+    "file": "provenance/rctd/counts_QA/Zhang_initial_s2p5_nuclei__CD2.qa.json",
+    "sha256": "fa1607c60e64fdc881f0dcde3dc4c814dfd5efa9284bf4252d512463fe3bac1e",
+    "bytes": 436
+  },
+  {
+    "file": "provenance/rctd/counts_QA/OpenCV_HE__CD2.qa.json",
+    "sha256": "a7194cc9a5cfee27989ec8b33994e680649b0d2d151d0d260cd184231958a5f9",
+    "bytes": 402
+  },
+  {
+    "file": "provenance/rctd/counts_QA/skimage_HE__CD2.qa.json",
+    "sha256": "5c1cd85180030b0d0fdae55b450c3d7b327e3dfcd19303bd42163c0ba7dbf8d6",
+    "bytes": 404
+  },
+  {
+    "file": "provenance/rctd/counts_QA/Zhang_initial_s3p5_nuclei__CD1.qa.json",
+    "sha256": "a6de3e2f46327326a0877ddb35503bf66ceae2a3d785f7aed3c33df32bbcdef7",
+    "bytes": 438
+  },
+  {
+    "file": "provenance/rctd/counts_QA/microSAM_LM_AIS__CD2.qa.json",
+    "sha256": "f2d5ebbe5939d2cb4511a0dd74379f496bb9e358b875b553854cb8016f0604fe",
+    "bytes": 413
+  },
+  {
+    "file": "provenance/rctd/counts_QA/Cellpose3__CD2.qa.json",
+    "sha256": "e3baae768d06e90cad736660edcaa6b7a2d6ef0839a85cb351612316e9c070f9",
+    "bytes": 399
+  },
+  {
+    "file": "provenance/rctd/counts_QA/Zhang_revised_s2p5_expand5__CD2.qa.json",
+    "sha256": "33d64c66bbc3022382ff0d1bbf0adf5a808795c922d4929034aec41d7f90886a",
+    "bytes": 438
+  },
+  {
+    "file": "provenance/rctd/counts_QA/CellposeDINO__CD1.qa.json",
+    "sha256": "00acd6ab41bb8173d5e926642ac7b0e944be7c4e75c1770e44bfba31b5ca4e48",
+    "bytes": 409
+  },
+  {
+    "file": "provenance/rctd/counts_QA/Zhang_revised_s2p5_nuclei__CD1.qa.json",
+    "sha256": "e36f94843fd47956e7b0a258d12c0125c745a19a4a1916a0d160f6ffa66635b2",
+    "bytes": 438
+  },
+  {
+    "file": "provenance/rctd/counts_QA/CellposeSAMv2__CD2.qa.json",
+    "sha256": "d8bfcf683b5cdd3aa56dac833ce15ef76585933d7fb93f4db1555c3b0a02b06b",
+    "bytes": 409
+  },
+  {
+    "file": "provenance/rctd/counts_QA/CellposeDINOsmall__CD2.qa.json",
+    "sha256": "8f0e389d4cf9cbb832669ab75b2237fbd21481ff8cc63b73cedb5a96602d91ff",
+    "bytes": 417
+  },
+  {
+    "file": "provenance/rctd/counts_QA/OpenCV_HE__CD1.qa.json",
+    "sha256": "2b5145a421a1f9bbe489fe513008ff242f59a98114d26f01b1a75db849f2487a",
+    "bytes": 403
+  },
+  {
+    "file": "provenance/rctd/counts_QA/Zhang_revised_s2p5_expand5__CD1.qa.json",
+    "sha256": "3abe0b32d93c9c6496ba67b03a5044a853115c7bf4709c34283b2250a0f6bbc7",
+    "bytes": 440
+  },
+  {
+    "file": "provenance/rctd/counts_QA/Zhang_revised_s3p5_nuclei__CD1.qa.json",
+    "sha256": "efa5e4f0720566e9571a2a12fdf6e4cc8cf612f37fad7b15eb4e4aa786d6088f",
+    "bytes": 438
+  },
+  {
+    "file": "provenance/rctd/counts_QA/CellposeSAM__CD2.qa.json",
+    "sha256": "d2f6dbda14d2a7340185c48531a425d762f71ed3895144b47964354432c982ff",
+    "bytes": 405
+  },
+  {
+    "file": "provenance/rctd/counts_QA/CellposeDINOsmall__CD1.qa.json",
+    "sha256": "c51a967905950fab017b3a8c323c10dada07de59641e9cc066825efce91a3e7a",
+    "bytes": 419
+  },
+  {
+    "file": "provenance/rctd/counts_QA/InstanSeg_HE__CD1.qa.json",
+    "sha256": "a1cbe95a70a2ca2c7d3d1b4e492ef83637eb40f619edfbb7983648ba7586c939",
+    "bytes": 412
+  },
+  {
+    "file": "provenance/rctd/counts_QA/microSAM_LM_AIS__CD1.qa.json",
+    "sha256": "b4ab6345bfa435e4f15ba537347491d809e7988520513e4ba3ba41dee4bd8782",
+    "bytes": 413
+  },
+  {
+    "file": "provenance/rctd/counts_QA/PathoSAM_HE_AIS__CD2.qa.json",
+    "sha256": "29f99d7f85226e668030911494c633a892c84f3d4c6c74788be87aa86202ca46",
+    "bytes": 411
+  },
+  {
+    "file": "provenance/rctd/counts_QA/CellposeDINO__CD2.qa.json",
+    "sha256": "23b970cba435ad2ec60d9be272e36125736e1744ce6bd4f194cc731719ab4e30",
+    "bytes": 406
+  },
+  {
+    "file": "provenance/rctd/counts_QA/Cellpose3__CD1.qa.json",
+    "sha256": "adadd4a366e9024d473be60af70596ffb4ca7a852e1b797810388f5af15cc241",
+    "bytes": 401
+  },
+  {
+    "file": "provenance/rctd/counts_QA/microSAM_LM_AMG__CD1.qa.json",
+    "sha256": "b0d170e59fae9d7d3e6755a86788b96dce07cc595d7ef83b552356fe3503e5c6",
+    "bytes": 402
+  }
+]

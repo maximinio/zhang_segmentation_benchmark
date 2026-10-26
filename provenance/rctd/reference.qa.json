@@ -1,0 +1,21 @@
+{
+  "source": "/home/lmassimino/references/seurat/single_cell/human/ibd/Nie2023_cd_ileum_scIBD.rds",
+  "source_md5": "89892805fed73a7fa2521ff53132bd6b",
+  "assay": "RNAraw",
+  "labels": "major_cluster",
+  "major_counts": {
+    "Myeloid": 5025,
+    "CD4T": 31665,
+    "CD8T": 41294,
+    "ILC": 3227,
+    "B_Plasma": 25518,
+    "Epithelial": 5473,
+    "Mesenchymal": 4368,
+    "Endothelial": 2376,
+    "Neural": 396
+  },
+  "cells": 119342,
+  "genes": 16105,
+  "raw_counts_exact": true,
+  "md5": "05d7232fb061b7096009e044d3bbe82d"
+}
